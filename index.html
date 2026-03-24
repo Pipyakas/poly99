@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poly99</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #000;
+            font-family: 'Courier New', monospace;
+        }
+        #canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #0ff;
+            font-size: 24px;
+            text-align: center;
+        }
+        .loader {
+            border: 4px solid #0ff;
+            border-top: 4px solid transparent;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+    <div id="loading">
+        <div class="loader"></div>
+        <div>LOADING poly99...</div>
+    </div>
+    <script>
+        var canvas = document.getElementById('canvas');
+        var loading = document.getElementById('loading');
+        
+        var Module = {
+            canvas: canvas,
+            onRuntimeInitialized: function() {
+                loading.style.display = 'none';
+            },
+            preRun: [],
+            postRun: [],
+            print: function(text) {
+                console.log(text);
+            },
+            printErr: function(text) {
+                console.error(text);
+            },
+            canvas: function() {
+                return canvas;
+            },
+            setStatus: function(text) {
+                if (text) {
+                    loading.querySelector('div:last-child').textContent = text;
+                }
+            },
+            totalDependencies: 0,
+            monitorRunDependencies: function(left) {
+                this.totalDependencies = Math.max(this.totalDependencies, left);
+                var status = this.totalDependencies - left + ' / ' + this.totalDependencies;
+                if (left === 0) {
+                    this.setStatus('');
+                } else {
+                    this.setStatus('Loading... ' + status);
+                }
+            }
+        };
+
+        window.onerror = function(event) {
+            console.error('Error: ' + event);
+        };
+    </script>
+    <script async type="text/javascript" src="index.js"></script>
+</body>
+</html>
