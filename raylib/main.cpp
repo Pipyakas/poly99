@@ -59,6 +59,9 @@ int main(void)
         ClearBackground(BLACK);
         BeginMode2D(camera);
 
+        const Color inGameBackground = { 35, 35, 35, 255 };
+        DrawRectangle(0, 0, (int)designWidth, (int)designHeight, inGameBackground);
+
         for (int x = 0; x <= (int)designWidth; x += 160)
             DrawLine(x, 0, x, (int)designHeight, ColorAlpha(RAYWHITE, 0.12f));
         for (int y = 0; y <= (int)designHeight; y += 160)
