@@ -190,6 +190,6 @@ void drawMetrics() {
     DrawText(buf, (int)x, (int)y + 3 * fs, fs, RAYWHITE);
 
     formatBytes(tmp, sizeof(tmp), m.vramBytes);
-    snprintf(buf, sizeof(buf), "VRAM %s", tmp);
+    snprintf(buf, sizeof(buf), "VRAM %s  (%s)", tmp, m.gpuName);
     DrawText(buf, (int)x, (int)y + 4 * fs, fs, RAYWHITE);
 }
