@@ -11,7 +11,10 @@ if(PLATFORM STREQUAL "Web")
         OUTPUT_NAME "index"
         SUFFIX ".html"
     )
-    target_link_options(poly99 PRIVATE "-sASYNCIFY")
+    target_link_options(poly99 PRIVATE
+        "--shell-file=${CMAKE_CURRENT_SOURCE_DIR}/web/shell.html"
+        "-sASYNCIFY"
+    )
 endif()
 
 set_target_properties(poly99 PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
