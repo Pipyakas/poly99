@@ -2,11 +2,12 @@
 
 ## Vision
 
-A twin-stick shooter in the Geometry Wars visual style with a **1vs99 survival mode**. Each player fights waves of enemies in their own instance — when you eliminate enemies, "attacks" spill over into opponents' instances as bonus spawn waves, debuffs, or environmental hazards. Last player standing wins. Built with a **shared gameplay core** in portable C++, rendered through two backends:
+A twin-stick shooter in the Geometry Wars visual style with a **1vs99 survival mode**. Each player fights waves of enemies in their own instance — when you eliminate enemies, "attacks" spill over into opponents' instances as bonus spawn waves, debuffs, or environmental hazards. Last player standing wins. Built with a **shared gameplay core** in portable C++, rendered through three backends:
 
 | Target | Renderer | Game Modes | Purpose |
 |--------|----------|------------|---------|
 | **Web** | raylib (via Emscripten) | 1v99 survival | Free, playable in browser |
+| **Android** | WebView/TWA shell around the hosted web build | 1v99 survival | Self-updatable — always tests the latest pushed build from a phone |
 | **Desktop/Console** | Unreal Engine 5 | 1v99 mode + additional modes | High-fidelity "poly99+" edition with particles, bloom, neon glow |
 
 The core game logic (entities, physics, spawning, scoring, attack queue) is engine-agnostic — it only depends on standard C++ and a thin abstraction layer for input/time/audio.
@@ -42,6 +43,17 @@ poly99/
 │       ├── index.html
 │       ├── index.js
 │       └── poly99.data
+│
+├── android/                    # Self-updatable Android shell (WebView/TWA)
+│   ├── app/
+│   │   └── src/main/
+│   │       ├── AndroidManifest.xml
+│   │       ├── java/com/pipyakas/poly99/MainActivity.kt
+│   │       └── res/
+│   ├── build.gradle.kts
+│   └── README.md               # Build + install instructions
+│
+├── .github/workflows/android-release.yml  # CI: builds APK on tag, attaches to GitHub Release
 │
 ├── unreal/                     # Unreal Engine 5 plugin/project
 │   ├── Poly99Game/
@@ -128,6 +140,21 @@ This is the only header the raylib and UE5 frontends include.
 
 ---
 
+## Android Frontend (Self-Updatable Test Shell)
+
+A thin native Android wrapper whose entire content is the hosted web build, so the phone **always runs the latest pushed version** — no reinstall or update mechanism needed.
+
+- **Architecture**: single-activity app hosting the web build in a fullscreen `WebView` (TWA/Bubblewrap upgrade path if we want "Add to home screen" + launcher integration)
+- **URL**: points at the published site (e.g. `https://pipyakas.github.io/poly99/`), configurable via the `POLY99_URL` gradle property
+- **Self-updating**: inherent — content is fetched fresh from hosting on each launch; any `gh-pages` push is instantly the latest build on the device
+- **Distribution**: GitHub Actions builds the APK on a `android-v*` tag push and attaches it to a GitHub Release (`gh release` / Releases page). Install the APK once; the game inside updates itself forever
+- **Settings**: allow cleartext/HTTP only in dev builds; enable hardware acceleration; handle back button, orientation, and fullscreen
+- **Dependency**: Android shell needs no raylib/UE5/CMake knowledge — it only requires the web build to be published
+- **Build**: `./gradlew assembleDebug` from `android/`; CI flow is `git tag android-v1 && git push --tags`
+- **Note**: phone testing needs touch input in the web build (see raylib section); shell works today for desktop-controlled preview but the web frontend must gain touch/gamepad controls for real on-device play
+
+---
+
 ## Unreal Engine 5 Frontend (poly99+)
 
 - **Core wrapped as UE5 plugin** (`Plugins/Poly99Core`): calls `core_api.h` once per tick from a `UObject` that lives in the game instance
@@ -151,6 +178,10 @@ emcmake cmake -B build-web -DPLATFORM=Web
 cmake --build build-web
 npx serve build-web
 
+# android shell (built by CI on `android-v*` tags; manual fallback below)
+cd android && ./gradlew assembleDebug
+# release flow: git tag android-v1 && git push --tags  ->  APK lands in GitHub Releases
+
 # core standalone tests
 cmake -B build-core -DPLATFORM=Desktop
 cmake --build build-core && ./build-core/core_tests
@@ -164,11 +195,12 @@ cmake --build build-core && ./build-core/core_tests
 
 | Phase | What | Output |
 |-------|------|--------|
-| 1 | Core entity + collision + enemy AI + attack queue system | Core library + unit tests |
-| 2 | raylib renderer + input + 1v99 loop with simulated opponents | Playable web build |
-| 3 | All enemy types, pickups, HUD, targeting modes, audio | Feature-complete web 1v99 |
-| 4 | UE5 plugin wrapper + CoreBridge + 1v99 mode + dedicated server | Core runs inside UE5 with real multiplayer |
-| 5 | UE5 visual pass + additional game modes | poly99+ edition with multiple modes |
+| 1 | Android WebView/TWA shell (self-updatable) | Installable APK shipped via GitHub Releases |
+| 2 | Core entity + collision + enemy AI + attack queue system | Core library + unit tests |
+| 3 | raylib renderer + input + 1v99 loop with simulated opponents | Playable web build |
+| 4 | All enemy types, pickups, HUD, targeting modes, audio | Feature-complete web 1v99 |
+| 5 | UE5 plugin wrapper + CoreBridge + 1v99 mode + dedicated server | Core runs inside UE5 with real multiplayer |
+| 6 | UE5 visual pass + additional game modes | poly99+ edition with multiple modes |
 
 ---
 
