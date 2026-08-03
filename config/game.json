@@ -1,0 +1,34 @@
+{
+  "player": {
+    "speed": 300,
+    "radius": 14,
+    "lives": 3,
+    "color": "#FFFFFF"
+  },
+  "bullet": {
+    "speed": 700,
+    "radius": 4,
+    "cooldown": 0.12,
+    "color": "#39FF14"
+  },
+  "enemy": {
+    "speed": 130,
+    "radius": 15,
+    "spawnCap": 10,
+    "color": "#FF3B3B"
+  },
+  "spawn": {
+    "interval": 1.0,
+    "intervalMin": 0.25,
+    "waveDuration": 30
+  },
+  "invulnTime": 1.0,
+  "designHeight": 720,
+  "minAspect": 1.3333,
+  "maxAspect": 2.3333,
+  "audio": {
+    "shoot": 880,
+    "hit": 180,
+    "wave": 440
+  }
+}

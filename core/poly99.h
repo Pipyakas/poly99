@@ -1,7 +1,24 @@
-#pragma once
+#ifndef POLY99_H
+#define POLY99_H
 
-namespace poly99 {
+#include "core_api.h"
 
-const char* hello();
+struct GameState {
+    Poly99Entity entities[POLY99_MAX_ENTITIES];
+    int   entityCount;
+    Poly99Config config;
+    float arenaW;
+    float arenaH;
+    int   score;
+    int   wave;
+    int   lives;
+    float fireTimer;
+    float spawnTimer;
+    float waveTimer;
+    float invulnTimer;
+    int   gameOver;
+    int   playerIndex;
+    unsigned int randState;
+};
 
-} // namespace poly99
+#endif /* POLY99_H */

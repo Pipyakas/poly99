@@ -1,23 +1,25 @@
+#include "audio.h"
+#include "config.h"
+#include "core_api.h"
+#include "input.h"
 #include "raylib.h"
+#include "renderer.h"
 
 #include <cmath>
-#include <cstdio>
 
 #if defined(__EMSCRIPTEN__)
 #include <emscripten.h>
 #endif
 
-#define DESIGN_HEIGHT 720.0f
-#define MIN_ASPECT    (4.0f/3.0f)   // 4:3
-#define MAX_ASPECT    (21.0f/9.0f)  // 21:9
+#ifndef POLY99_DEFAULT_TOUCH
+#define POLY99_DEFAULT_TOUCH 2
+#endif
 
-static void SyncCanvasSizeToViewport(void)
-{
+static void SyncCanvasSizeToViewport(void) {
 #if defined(__EMSCRIPTEN__)
     int cssWidth = EM_ASM_INT({ return window.innerWidth; });
     int cssHeight = EM_ASM_INT({ return window.innerHeight; });
-    if ((cssWidth != GetScreenWidth()) || (cssHeight != GetScreenHeight()))
-    {
+    if ((cssWidth != GetScreenWidth()) || (cssHeight != GetScreenHeight())) {
         SetWindowSize(cssWidth, cssHeight);
     }
 #else
@@ -25,59 +27,91 @@ static void SyncCanvasSizeToViewport(void)
 #endif
 }
 
-int main(void)
-{
+static int countAlive(const Poly99Snapshot& s, int type) {
+    int n = 0;
+    for (int i = 0; i < POLY99_MAX_ENTITIES; i++) {
+        if (s.entities[i].alive && s.entities[i].type == type) n++;
+    }
+    return n;
+}
+
+int main(void) {
+    AppConfig app;
+    loadAppConfig(app);
+
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
     InitWindow(1280, 720, "poly99 - Raylib Engine");
+    InitAudioDevice();
+    initAudioSfx(app.shootFreq, app.hitFreq, app.waveFreq);
+
     SetTargetFPS(60);
 
-    while (!WindowShouldClose())
-    {
+    unsigned int seed = (unsigned int)(GetTime() * 1000.0f) ^ 0x9E3779B9u;
+    poly99_init(seed, &app.core);
+    initTouchSetting(POLY99_DEFAULT_TOUCH);
+
+    int prevEnemies = 0;
+    int prevBullets = 0;
+    int prevWave = 1;
+
+    while (!WindowShouldClose()) {
+        const float dt = GetFrameTime();
         SyncCanvasSizeToViewport();
 
-        const float screenWidth = (float)GetScreenWidth();
-        const float screenHeight = (float)GetScreenHeight();
+        const float screenW = (float)GetScreenWidth();
+        const float screenH = (float)GetScreenHeight();
+        float aspect = screenW / screenH;
+        aspect = fminf(fmaxf(aspect, app.minAspect), app.maxAspect);
+        const float designW = app.designHeight * aspect;
+        const float designH = app.designHeight;
 
-        // Design space: fixed height, width derived from the (clamped) aspect ratio.
-        // 16:9 -> 1280x720, 4:3 -> 960x720, 3:2 -> 1080x720, 21:9 -> 1680x720.
-        float aspect = screenWidth / screenHeight;
-        aspect = fminf(fmaxf(aspect, MIN_ASPECT), MAX_ASPECT);
-        const float designWidth = DESIGN_HEIGHT * aspect;
-        const float designHeight = DESIGN_HEIGHT;
+        poly99_set_arena(designW, designH);
 
-        const float scale = fminf(screenWidth / designWidth, screenHeight / designHeight);
+        const float scale = fminf(screenW / designW, screenH / designH);
         const Vector2 offset = {
-            (screenWidth - designWidth * scale) * 0.5f,
-            (screenHeight - designHeight * scale) * 0.5f
+            (screenW - designW * scale) * 0.5f,
+            (screenH - designH * scale) * 0.5f
         };
-
         Camera2D camera = { 0 };
         camera.zoom = scale;
         camera.offset = offset;
 
+        Poly99Snapshot snap;
+        poly99_get_snapshot(&snap);
+
+        const bool touch = touchEnabled();
+        Poly99Input input = {};
+        buildInput(input, camera, snap, touch);
+
+        if (IsKeyPressed(KEY_T)) toggleTouchSetting();
+
+        poly99_tick(dt, &input);
+        poly99_get_snapshot(&snap);
+
+        int enemies = countAlive(snap, POLY99_ET_ENEMY_GRASSHOPPER);
+        int bullets = countAlive(snap, POLY99_ET_BULLET);
+        if (bullets > prevBullets) playShoot();
+        if (enemies < prevEnemies) playHit();
+        if (snap.wave > prevWave) playWave();
+        prevEnemies = enemies;
+        prevBullets = bullets;
+        prevWave = snap.wave;
+
         BeginDrawing();
         ClearBackground(BLACK);
         BeginMode2D(camera);
-
-        const Color inGameBackground = { 35, 35, 35, 255 };
-        DrawRectangle(0, 0, (int)designWidth, (int)designHeight, inGameBackground);
-
-        for (int x = 0; x <= (int)designWidth; x += 160)
-            DrawLine(x, 0, x, (int)designHeight, ColorAlpha(RAYWHITE, 0.12f));
-        for (int y = 0; y <= (int)designHeight; y += 160)
-            DrawLine(0, y, (int)designWidth, y, ColorAlpha(RAYWHITE, 0.12f));
-        DrawRectangleLinesEx((Rectangle){ 0, 0, designWidth, designHeight }, 4.0f, RAYWHITE);
-
-        DrawText("poly99 - adaptive arena", 20, 20, 30, RAYWHITE);
-
-        char info[64];
-        snprintf(info, sizeof(info), "design %.0fx%.0f  aspect %.2f", designWidth, designHeight, aspect);
-        DrawText(info, 20, 60, 20, RAYWHITE);
-
+        drawArena(designW, designH, GetTime());
+        drawEntities(snap, GetTime());
         EndMode2D();
+        drawHUD(snap, touch);
+        if (touch) drawTouchControls();
+        if (snap.gameOver) drawGameOver(snap, touch);
         EndDrawing();
     }
 
+    closeAudioSfx();
+    CloseAudioDevice();
     CloseWindow();
+    poly99_shutdown();
     return 0;
 }

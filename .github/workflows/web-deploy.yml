@@ -6,6 +6,7 @@ on:
     paths:
       - "raylib/**"
       - "core/**"
+      - "config/**"
       - "CMakeLists.txt"
       - "scripts/**"
   workflow_dispatch:
