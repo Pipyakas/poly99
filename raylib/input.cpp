@@ -147,7 +147,7 @@ void buildInput(Poly99Input& out, const Camera2D& camera, const Poly99Snapshot& 
         out.aimY += a.y;
         if (a.x != 0.0f || a.y != 0.0f) out.firing = 1;
     } else {
-        const Poly99Entity* player = NULL;
+        const Poly99Entity* player = nullptr;
         for (int i = 0; i < POLY99_MAX_ENTITIES; i++) {
             if (snap.entities[i].alive && snap.entities[i].type == POLY99_ET_PLAYER) { player = &snap.entities[i]; break; }
         }
