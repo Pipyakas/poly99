@@ -40,7 +40,7 @@ int main(void)
             (screenWidth - logicalWidth*scale)*0.5f,
             (screenHeight - logicalHeight*scale)*0.5f
         };
-        const Camera2D camera = { 0 };
+        Camera2D camera = { 0 };
         camera.zoom = scale;
         camera.offset = offset;
 
