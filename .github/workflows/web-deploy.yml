@@ -1,0 +1,73 @@
+name: Web build & deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "raylib/**"
+      - "core/**"
+      - "CMakeLists.txt"
+      - "scripts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check web source exists
+        id: check
+        run: |
+          if [ -f "CMakeLists.txt" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Skip (no source yet)
+        if: steps.check.outputs.exists == 'false'
+        run: echo "No web source (CMakeLists.txt) in the repo yet; nothing to build. Skipping."
+
+      - name: Set up Emscripten
+        if: steps.check.outputs.exists == 'true'
+        uses: mymindstorm/setup-emsdk@v14
+
+      - name: Configure
+        if: steps.check.outputs.exists == 'true'
+        run: emcmake cmake -B build-web -DPLATFORM=Web
+
+      - name: Build
+        if: steps.check.outputs.exists == 'true'
+        run: cmake --build build-web
+
+      - name: Stage deploy artifacts
+        if: steps.check.outputs.exists == 'true'
+        run: |
+          mkdir -p deploy
+          for name in index poly99 game; do
+            [ -f "build-web/$name.html" ] && cp "build-web/$name.html" deploy/index.html
+            [ -f "build-web/$name.js" ] && cp "build-web/$name.js" deploy/index.js
+            [ -f "build-web/$name.wasm" ] && cp "build-web/$name.wasm" deploy/index.wasm
+            [ -f "build-web/$name.data" ] && cp "build-web/$name.data" deploy/index.data
+          done
+          printf '{"version":"%s"}\n' "$(TZ="Etc/GMT-7" date -Iseconds)" > deploy/version.json
+
+      - name: Deploy to gh-pages
+        if: steps.check.outputs.exists == 'true'
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin gh-pages --depth=1
+          git worktree add deploy-page gh-pages
+          rm -f deploy-page/index.html deploy-page/index.js deploy-page/index.wasm deploy-page/index.data
+          cp deploy/* deploy-page/
+          cd deploy-page
+          git add -A
+          git commit -m "Deploy web build from $(git rev-parse --short "$GITHUB_SHA")"
+          git push origin HEAD:gh-pages
