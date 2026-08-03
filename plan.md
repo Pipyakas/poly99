@@ -173,6 +173,9 @@ A thin native Android wrapper around the hosted web build, **cache-first with ba
 ## Build & Workflow
 
 ```bash
+# one-time clone (includes the raylib submodule)
+git submodule update --init --recursive
+
 # raylib web build
 cd poly99
 emcmake cmake -B build-web -DPLATFORM=Web
