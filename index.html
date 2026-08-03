@@ -22,7 +22,7 @@
     </style>
 </head>
 <body>
-    <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+    <canvas id="canvas" tabindex="0" oncontextmenu="event.preventDefault()"></canvas>
     <script>
         var Module = {
             canvas: document.getElementById('canvas'),
@@ -32,6 +32,8 @@
                 if (text) console.log('[status] ' + text);
             }
         };
+        Module.canvas.addEventListener('mousedown', function() { this.focus(); });
+        Module.canvas.focus();
         window.onerror = function(message, source, line, col) {
             console.error('[error] ' + message + ' (' + source + ':' + line + ':' + col + ')');
         };
