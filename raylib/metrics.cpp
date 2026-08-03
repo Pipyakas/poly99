@@ -37,54 +37,57 @@ double now() { return GetTime(); }
 #if defined(__EMSCRIPTEN__)
 void gpuInit() {
     EM_ASM({
-        if (window.__poly99Timer) return;
+        if (window.__poly99GL) return;
         var gl = Module.ctx || (typeof GL !== 'undefined' && GL.currentContext && GL.currentContext.GLctx);
         if (!gl) return;
         var ext2 = gl.getExtension('EXT_disjoint_timer_query_webgl2');
-        if (ext2) { window.__poly99Timer = { gl: gl, ext: ext2, webgl2: true }; return; }
+        if (ext2) { window.__poly99GL = gl; window.__poly99EXT = ext2; window.__poly99WEBGL2 = true; return; }
         var ext1 = gl.getExtension('EXT_disjoint_timer_query');
-        if (ext1) { window.__poly99Timer = { gl: gl, ext: ext1, webgl2: false }; }
+        if (ext1) { window.__poly99GL = gl; window.__poly99EXT = ext1; window.__poly99WEBGL2 = false; }
     });
 }
 
 void gpuBegin() {
     EM_ASM({
-        var t = window.__poly99Timer;
-        if (!t || window.__poly99Q) return;
-        if (t.webgl2) {
-            window.__poly99Q = t.gl.createQuery();
-            t.gl.beginQuery(t.ext.TIME_ELAPSED_EXT, window.__poly99Q);
+        var gl = window.__poly99GL;
+        var ext = window.__poly99EXT;
+        if (!gl || !ext || window.__poly99Q) return;
+        if (window.__poly99WEBGL2) {
+            window.__poly99Q = gl.createQuery();
+            gl.beginQuery(ext.TIME_ELAPSED_EXT, window.__poly99Q);
         } else {
-            window.__poly99Q = t.ext.createQueryEXT();
-            t.ext.beginQueryEXT(t.ext.TIME_ELAPSED_EXT, window.__poly99Q);
+            window.__poly99Q = ext.createQueryEXT();
+            ext.beginQueryEXT(ext.TIME_ELAPSED_EXT, window.__poly99Q);
         }
     });
 }
 
 void gpuEnd() {
     EM_ASM({
-        var t = window.__poly99Timer;
-        if (!t || !window.__poly99Q) return;
-        if (t.webgl2) t.gl.endQuery(t.ext.TIME_ELAPSED_EXT);
-        else t.ext.endQueryEXT(t.ext.TIME_ELAPSED_EXT);
+        var gl = window.__poly99GL;
+        var ext = window.__poly99EXT;
+        if (!gl || !ext || !window.__poly99Q) return;
+        if (window.__poly99WEBGL2) gl.endQuery(ext.TIME_ELAPSED_EXT);
+        else ext.endQueryEXT(ext.TIME_ELAPSED_EXT);
     });
 }
 
 double gpuReadMs() {
     double r = EM_ASM_DOUBLE({
-        var t = window.__poly99Timer;
-        if (!t || !window.__poly99Q) return -1;
-        if (t.webgl2) {
-            if (t.gl.getQueryParameter(window.__poly99Q, t.ext.QUERY_RESULT_AVAILABLE_EXT)) {
-                var ns = t.gl.getQueryParameter(window.__poly99Q, t.ext.QUERY_RESULT_EXT);
-                t.gl.deleteQuery(window.__poly99Q);
+        var gl = window.__poly99GL;
+        var ext = window.__poly99EXT;
+        if (!gl || !ext || !window.__poly99Q) return -1;
+        if (window.__poly99WEBGL2) {
+            if (gl.getQueryParameter(window.__poly99Q, ext.QUERY_RESULT_AVAILABLE_EXT)) {
+                var ns = gl.getQueryParameter(window.__poly99Q, ext.QUERY_RESULT_EXT);
+                gl.deleteQuery(window.__poly99Q);
                 window.__poly99Q = null;
                 return ns / 1000000.0;
             }
         } else {
-            if (t.ext.getQueryParameterEXT(window.__poly99Q, t.ext.QUERY_RESULT_AVAILABLE_EXT)) {
-                var ns = t.ext.getQueryParameterEXT(window.__poly99Q, t.ext.QUERY_RESULT_EXT);
-                t.ext.deleteQueryEXT(window.__poly99Q);
+            if (ext.getQueryParameterEXT(window.__poly99Q, ext.QUERY_RESULT_AVAILABLE_EXT)) {
+                var ns = ext.getQueryParameterEXT(window.__poly99Q, ext.QUERY_RESULT_EXT);
+                ext.deleteQueryEXT(window.__poly99Q);
                 window.__poly99Q = null;
                 return ns / 1000000.0;
             }
