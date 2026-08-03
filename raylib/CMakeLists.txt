@@ -7,7 +7,10 @@ add_subdirectory(raylib-src)
 add_executable(poly99 main.cpp)
 
 if(PLATFORM STREQUAL "Web")
-    set_target_properties(poly99 PROPERTIES SUFFIX ".html")
+    set_target_properties(poly99 PROPERTIES
+        OUTPUT_NAME "index"
+        SUFFIX ".html"
+    )
 endif()
 
 set_target_properties(poly99 PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
