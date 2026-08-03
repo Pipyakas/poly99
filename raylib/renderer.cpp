@@ -88,8 +88,8 @@ void drawHUD(const Poly99Snapshot& snap, bool touch) {
     DrawText(TextFormat("SCORE %06d", snap.score), 16, 16, 24, RAYWHITE);
     DrawText(TextFormat("WAVE %d", snap.wave), 16, 46, 24, RAYWHITE);
     DrawText(TextFormat("LIVES %d", snap.lives), 16, 76, 24, RAYWHITE);
-    const char* mode = touch ? "JOY ON  [T]" : "JOY OFF  [T]";
-    DrawText(mode, GetScreenWidth() - 200, 16, 20, GRAY);
+    const char* mode = touch ? "JOY ON" : "JOY OFF";
+    DrawText(mode, GetScreenWidth() - 140, 16, 20, GRAY);
 }
 
 void drawGameOver(const Poly99Snapshot& snap, bool touch) {

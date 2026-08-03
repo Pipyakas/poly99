@@ -1,5 +1,6 @@
 #include "ui.h"
 
+#include "audio.h"
 #include "input.h"
 
 #include <cmath>
@@ -14,8 +15,29 @@ int prevTouchCount = 0;
 int pauseSel = 0;
 int settingsSel = 0;
 
+int flashRow = -1;
+float flashTimer = 0.0f;
+
 bool pointInRect(Vector2 p, Rectangle r) {
     return p.x >= r.x && p.x <= r.x + r.width && p.y >= r.y && p.y <= r.y + r.height;
+}
+
+bool isPointerOver(Rectangle r) {
+    if (pointInRect(GetMousePosition(), r)) return true;
+    int tc = GetTouchPointCount();
+    for (int i = 0; i < tc; i++) {
+        if (pointInRect(GetTouchPosition(i), r)) return true;
+    }
+    return false;
+}
+
+bool isPointerDown(Rectangle r) {
+    if (IsMouseButtonDown(MOUSE_BUTTON_LEFT) && pointInRect(GetMousePosition(), r)) return true;
+    int tc = GetTouchPointCount();
+    for (int i = 0; i < tc; i++) {
+        if (pointInRect(GetTouchPosition(i), r)) return true;
+    }
+    return false;
 }
 
 bool pointerTap(Rectangle r, Vector2& out) {
@@ -76,9 +98,29 @@ void drawPanel(Rectangle r) {
     DrawRectangleLinesEx(r, 2.0f, (Color){ 0, 255, 255, 150 });
 }
 
-void drawRowBase(Rectangle r, bool selected) {
-    DrawRectangleRec(r, selected ? (Color){ 0, 255, 255, 30 } : (Color){ 255, 255, 255, 12 });
-    if (selected) DrawRectangleLinesEx(r, 2.0f, (Color){ 0, 255, 255, 200 });
+void drawRowBase(Rectangle r, bool selected, int row) {
+    bool hovered = isPointerOver(r);
+    bool pressed = isPointerDown(r);
+    bool flash = (flashTimer > 0.0f) && (flashRow == row);
+
+    Color fill = { 255, 255, 255, 14 };
+    if (pressed) fill = (Color){ 0, 255, 255, 90 };
+    else if (hovered || selected || flash) fill = (Color){ 0, 255, 255, 40 };
+
+    DrawRectangleRec(r, fill);
+    if (flash) {
+        DrawRectangleLinesEx(r, 3.0f, (Color){ 255, 255, 255, 220 });
+    } else if (selected) {
+        DrawRectangleLinesEx(r, 2.0f, (Color){ 0, 255, 255, 220 });
+    } else if (hovered) {
+        DrawRectangleLinesEx(r, 2.0f, (Color){ 0, 255, 255, 120 });
+    }
+}
+
+void triggerFlash(int row) {
+    flashRow = row;
+    flashTimer = 0.15f;
+    playUiClick();
 }
 
 void drawLabel(Rectangle r, const char* label, const char* value) {
@@ -95,8 +137,10 @@ Rectangle pauseButtonRect() {
 
 void drawPauseButton() {
     Rectangle r = pauseButtonRect();
-    DrawRectangleRec(r, (Color){ 255, 255, 255, 30 });
-    DrawRectangleLinesEx(r, 2.0f, (Color){ 255, 255, 255, 120 });
+    bool over = isPointerOver(r);
+    bool down = isPointerDown(r);
+    DrawRectangleRec(r, down ? (Color){ 0, 255, 255, 70 } : over ? (Color){ 255, 255, 255, 45 } : (Color){ 255, 255, 255, 30 });
+    DrawRectangleLinesEx(r, 2.0f, over ? (Color){ 0, 255, 255, 200 } : (Color){ 255, 255, 255, 120 });
     DrawRectangle((int)r.x + 12, (int)r.y + 10, 6, 20, RAYWHITE);
     DrawRectangle((int)r.x + 22, (int)r.y + 10, 6, 20, RAYWHITE);
 }
@@ -116,12 +160,13 @@ void updatePauseMenu(GameMode& mode) {
     if (IsKeyPressed(KEY_ENTER) || IsKeyPressed(KEY_SPACE)) {
         if (pauseSel == 0) { mode = GameMode::Play; return; }
         settingsSel = 0;
+        triggerFlash(1);
         mode = GameMode::Settings;
         return;
     }
     Vector2 tap;
-    if (pointerTap(btnResume, tap)) { mode = GameMode::Play; return; }
-    if (pointerTap(btnSettings, tap)) { settingsSel = 0; mode = GameMode::Settings; return; }
+    if (pointerTap(btnResume, tap)) { triggerFlash(0); mode = GameMode::Play; return; }
+    if (pointerTap(btnSettings, tap)) { settingsSel = 0; triggerFlash(1); mode = GameMode::Settings; return; }
 }
 
 void drawPauseMenu() {
@@ -136,9 +181,9 @@ void drawPauseMenu() {
     Rectangle btnResume = { panel.x + 40, panel.y + 70, panel.width - 80, rowH };
     Rectangle btnSettings = { btnResume.x, btnResume.y + rowH + 14, btnResume.width, rowH };
 
-    drawRowBase(btnResume, pauseSel == 0);
+    drawRowBase(btnResume, pauseSel == 0, 0);
     drawLabel(btnResume, "Resume", nullptr);
-    drawRowBase(btnSettings, pauseSel == 1);
+    drawRowBase(btnSettings, pauseSel == 1, 1);
     drawLabel(btnSettings, "Settings", nullptr);
 }
 
@@ -163,21 +208,22 @@ void updateSettingsMenu(GameMode& mode, SettingsData& s) {
     if (IsKeyPressed(KEY_RIGHT) && settingsSel == 1) s.masterVolume = fminf(1.0f, s.masterVolume + 0.05f);
 
     if (IsKeyPressed(KEY_ENTER) || IsKeyPressed(KEY_SPACE)) {
-        if (settingsSel == 0) toggleTouchSetting();
-        else if (settingsSel == 2) { s.fullscreen = !s.fullscreen; ToggleFullscreen(); }
-        else if (settingsSel == 3) { mode = GameMode::Paused; return; }
+        if (settingsSel == 0) { triggerFlash(0); toggleTouchSetting(); }
+        else if (settingsSel == 2) { triggerFlash(2); s.fullscreen = !s.fullscreen; ToggleFullscreen(); }
+        else if (settingsSel == 3) { triggerFlash(3); mode = GameMode::Paused; return; }
     }
 
     Vector2 tap;
-    if (pointerTap(rows[0], tap)) toggleTouchSetting();
-    if (pointerTap(rows[2], tap)) { s.fullscreen = !s.fullscreen; ToggleFullscreen(); }
-    if (pointerTap(rows[3], tap)) { mode = GameMode::Paused; return; }
+    if (pointerTap(rows[0], tap)) { triggerFlash(0); toggleTouchSetting(); }
+    if (pointerTap(rows[2], tap)) { triggerFlash(2); s.fullscreen = !s.fullscreen; ToggleFullscreen(); }
+    if (pointerTap(rows[3], tap)) { triggerFlash(3); mode = GameMode::Paused; return; }
 
     Rectangle track = { rows[1].x + 150, rows[1].y + (rowH - 8) / 2, rows[1].width - 220, 8 };
     bool drag = IsMouseButtonDown(MOUSE_BUTTON_LEFT) && pointInRect(GetMousePosition(), track);
     if (pointerTap(track, tap) || drag) {
         Vector2 p = drag ? GetMousePosition() : tap;
         s.masterVolume = fminf(1.0f, fmaxf(0.0f, (p.x - track.x) / track.width));
+        if (!drag) triggerFlash(1);
     }
 
     localSetFloat("poly99_volume", s.masterVolume);
@@ -198,24 +244,25 @@ void drawSettingsMenu(const SettingsData& s, bool touch) {
     float y = panel.y + 66;
 
     Rectangle touchRow = { x, y, w, rowH };
-    drawRowBase(touchRow, settingsSel == 0);
+    drawRowBase(touchRow, settingsSel == 0, 0);
     drawLabel(touchRow, "Touch Controls", touch ? "ON" : "OFF");
 
     Rectangle volRow = { x, y + (rowH + 12), w, rowH };
-    drawRowBase(volRow, settingsSel == 1);
+    drawRowBase(volRow, settingsSel == 1, 1);
     drawLabel(volRow, "Volume", TextFormat("%d%%", (int)(s.masterVolume * 100.0f)));
     Rectangle track = { x + 150, volRow.y + (rowH - 8) / 2, w - 220, 8 };
     DrawRectangleRec(track, (Color){ 255, 255, 255, 40 });
     float fillW = track.width * s.masterVolume;
     if (fillW > 0) DrawRectangleRec((Rectangle){ track.x, track.y, fillW, track.height }, (Color){ 0, 255, 255, 220 });
-    DrawCircleV((Vector2){ track.x + fillW, track.y + track.height / 2 }, 7.0f, (Color){ 0, 255, 255, 220 });
+    bool volActive = settingsSel == 1 || isPointerOver(track);
+    DrawCircleV((Vector2){ track.x + fillW, track.y + track.height / 2 }, volActive ? 8.0f : 7.0f, (Color){ 0, 255, 255, (unsigned char)(volActive ? 255 : 220) });
 
     Rectangle fsRow = { x, y + 2 * (rowH + 12), w, rowH };
-    drawRowBase(fsRow, settingsSel == 2);
+    drawRowBase(fsRow, settingsSel == 2, 2);
     drawLabel(fsRow, "Fullscreen", s.fullscreen ? "ON" : "OFF");
 
     Rectangle backRow = { x, y + 3 * (rowH + 12), w, rowH };
-    drawRowBase(backRow, settingsSel == 3);
+    drawRowBase(backRow, settingsSel == 3, 3);
     drawLabel(backRow, "Back", nullptr);
 }
 
@@ -232,6 +279,8 @@ void uiUpdate(GameMode& mode, SettingsData& s, bool touch, bool gameOver) {
     int tc = GetTouchPointCount();
     prevTouchCount = tc;
 
+    if (flashTimer > 0.0f) flashTimer -= GetFrameTime();
+
     bool pauseRequest = IsKeyPressed(KEY_ESCAPE) || IsKeyPressed(KEY_P);
     if (touch) {
         Vector2 tap;
@@ -239,9 +288,9 @@ void uiUpdate(GameMode& mode, SettingsData& s, bool touch, bool gameOver) {
     }
 
     if (mode == GameMode::Play) {
-        if (IsKeyPressed(KEY_T)) toggleTouchSetting();
         if (!gameOver && pauseRequest) {
             pauseSel = 0;
+            triggerFlash(0);
             mode = GameMode::Paused;
         }
     } else if (mode == GameMode::Paused) {

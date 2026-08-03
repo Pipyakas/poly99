@@ -42,6 +42,7 @@ int main(void) {
 
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
     InitWindow(1280, 720, "poly99 - Raylib Engine");
+    SetTextureFilter(GetFontDefault().texture, TEXTURE_FILTER_BILINEAR);
     InitAudioDevice();
     initAudioSfx(app.shootFreq, app.hitFreq, app.waveFreq);
 

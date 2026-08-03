@@ -9,6 +9,7 @@ namespace {
 Sound sfxShoot;
 Sound sfxHit;
 Sound sfxWave;
+Sound sfxUiClick;
 
 Wave genTone(float freq, float duration, float volume, bool square) {
     Wave wave = { 0 };
@@ -45,14 +46,20 @@ void initAudioSfx(float shootFreq, float hitFreq, float waveFreq) {
     w = genTone(waveFreq, 0.3f, 0.3f, false);
     sfxWave = LoadSoundFromWave(w);
     UnloadWave(w);
+
+    w = genTone(1200.0f, 0.03f, 0.18f, true);
+    sfxUiClick = LoadSoundFromWave(w);
+    UnloadWave(w);
 }
 
 void playShoot() { PlaySound(sfxShoot); }
 void playHit() { PlaySound(sfxHit); }
 void playWave() { PlaySound(sfxWave); }
+void playUiClick() { PlaySound(sfxUiClick); }
 
 void closeAudioSfx() {
     UnloadSound(sfxShoot);
     UnloadSound(sfxHit);
     UnloadSound(sfxWave);
+    UnloadSound(sfxUiClick);
 }
