@@ -129,6 +129,7 @@ This is the only header the raylib and UE5 frontends include.
 ## raylib Frontend (Web — 1v99 Survival)
 
 - Single-window, `raylib` 5.5+ with `PLATFORM_WEB`
+- **Adaptive design resolution**: fixed design height (720), design width derived from the clamped aspect ratio (4:3→960×720, 16:9→1280×720, 21:9→1680×720). The arena adapts to the screen; full-bleed inside the ratio range, letterbox outside it. Renderer-side scaling via `Camera2D`, no CSS scaling
 - `renderer.cpp` draws all entities as outline-only geometric shapes (circles, triangles, lines) with a neon glow effect via repeated draw calls with decreasing alpha
 - Attack queue shown as a visual indicator on arena edges (incoming danger level by direction)
 - Keyboard: WASD + mouse aim / Arrow keys + ZX for shooting; number keys 1-4 to switch targeting mode
