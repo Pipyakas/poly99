@@ -124,10 +124,10 @@ void triggerFlash(int row) {
 }
 
 void drawLabel(Rectangle r, const char* label, const char* value) {
-    DrawText(label, (int)r.x + 16, (int)r.y + (int)(r.height - 24) / 2, 22, RAYWHITE);
+    DrawText(label, (int)r.x + 16, (int)r.y + (int)(r.height - 24) / 2, 24, RAYWHITE);
     if (value) {
-        int w = MeasureText(value, 22);
-        DrawText(value, (int)(r.x + r.width - w - 16), (int)r.y + (int)(r.height - 24) / 2, 22, (Color){ 0, 255, 255, 220 });
+        int w = MeasureText(value, 24);
+        DrawText(value, (int)(r.x + r.width - w - 16), (int)r.y + (int)(r.height - 24) / 2, 24, (Color){ 0, 255, 255, 220 });
     }
 }
 
@@ -174,8 +174,8 @@ void drawPauseMenu() {
     Rectangle panel = centerPanel(420, 200);
     drawPanel(panel);
 
-    int titleW = MeasureText("PAUSED", 34);
-    DrawText("PAUSED", (int)(panel.x + (panel.width - titleW) / 2), (int)panel.y + 20, 34, RAYWHITE);
+    int titleW = MeasureText("PAUSED", 32);
+    DrawText("PAUSED", (int)(panel.x + (panel.width - titleW) / 2), (int)panel.y + 16, 32, RAYWHITE);
 
     float rowH = 56;
     Rectangle btnResume = { panel.x + 40, panel.y + 70, panel.width - 80, rowH };
@@ -235,8 +235,8 @@ void drawSettingsMenu(const SettingsData& s, bool touch) {
     Rectangle panel = centerPanel(440, 320);
     drawPanel(panel);
 
-    int titleW = MeasureText("SETTINGS", 34);
-    DrawText("SETTINGS", (int)(panel.x + (panel.width - titleW) / 2), (int)panel.y + 20, 34, RAYWHITE);
+    int titleW = MeasureText("SETTINGS", 32);
+    DrawText("SETTINGS", (int)(panel.x + (panel.width - titleW) / 2), (int)panel.y + 16, 32, RAYWHITE);
 
     float rowH = 50;
     float x = panel.x + 36;

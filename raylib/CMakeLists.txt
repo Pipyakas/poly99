@@ -14,6 +14,7 @@ add_executable(poly99
     renderer.cpp
     audio.cpp
     ui.cpp
+    metrics.cpp
 )
 
 if(PLATFORM STREQUAL "Web")

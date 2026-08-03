@@ -86,23 +86,23 @@ void drawEntities(const Poly99Snapshot& snap, float time) {
 
 void drawHUD(const Poly99Snapshot& snap, bool touch) {
     DrawText(TextFormat("SCORE %06d", snap.score), 16, 16, 24, RAYWHITE);
-    DrawText(TextFormat("WAVE %d", snap.wave), 16, 46, 24, RAYWHITE);
-    DrawText(TextFormat("LIVES %d", snap.lives), 16, 76, 24, RAYWHITE);
+    DrawText(TextFormat("WAVE %d", snap.wave), 16, 48, 24, RAYWHITE);
+    DrawText(TextFormat("LIVES %d", snap.lives), 16, 80, 24, RAYWHITE);
     const char* mode = touch ? "JOY ON" : "JOY OFF";
-    DrawText(mode, GetScreenWidth() - 140, 16, 20, GRAY);
+    DrawText(mode, GetScreenWidth() - 120, 16, 16, GRAY);
 }
 
 void drawGameOver(const Poly99Snapshot& snap, bool touch) {
     DrawRectangle(0, 0, GetScreenWidth(), GetScreenHeight(), (Color){ 0, 0, 0, 180 });
     const char* msg = "GAME OVER";
-    int w = MeasureText(msg, 60);
-    DrawText(msg, (GetScreenWidth() - w) / 2, GetScreenHeight() / 2 - 80, 60, RED);
+    int w = MeasureText(msg, 56);
+    DrawText(msg, (GetScreenWidth() - w) / 2, GetScreenHeight() / 2 - 80, 56, RED);
 
     const char* scoreLine = TextFormat("SCORE %d   WAVE %d", snap.score, snap.wave);
     int w2 = MeasureText(scoreLine, 24);
     DrawText(scoreLine, (GetScreenWidth() - w2) / 2, GetScreenHeight() / 2, 24, RAYWHITE);
 
     const char* hint = touch ? "Tap to restart" : "Press Enter to restart";
-    int w3 = MeasureText(hint, 20);
-    DrawText(hint, (GetScreenWidth() - w3) / 2, GetScreenHeight() / 2 + 40, 20, GRAY);
+    int w3 = MeasureText(hint, 16);
+    DrawText(hint, (GetScreenWidth() - w3) / 2, GetScreenHeight() / 2 + 40, 16, GRAY);
 }

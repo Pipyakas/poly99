@@ -2,6 +2,7 @@
 #include "config.h"
 #include "core_api.h"
 #include "input.h"
+#include "metrics.h"
 #include "raylib.h"
 #include "renderer.h"
 #include "ui.h"
@@ -42,7 +43,7 @@ int main(void) {
 
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
     InitWindow(1280, 720, "poly99 - Raylib Engine");
-    SetTextureFilter(GetFontDefault().texture, TEXTURE_FILTER_BILINEAR);
+    SetTextureFilter(GetFontDefault().texture, TEXTURE_FILTER_POINT);
     InitAudioDevice();
     initAudioSfx(app.shootFreq, app.hitFreq, app.waveFreq);
 
@@ -55,6 +56,7 @@ int main(void) {
     unsigned int seed = (unsigned int)(GetTime() * 1000.0f) ^ 0x9E3779B9u;
     poly99_init(seed, &app.core);
     initTouchSetting(POLY99_DEFAULT_TOUCH);
+    metricsInit();
 
     GameMode mode = GameMode::Play;
 
@@ -64,6 +66,7 @@ int main(void) {
 
     while (!WindowShouldClose()) {
         const float dt = GetFrameTime();
+        metricsBeginFrame();
         SyncCanvasSizeToViewport();
 
         const float screenW = (float)GetScreenWidth();
@@ -91,6 +94,8 @@ int main(void) {
 
         uiUpdate(mode, settings, touch, snap.gameOver != 0);
 
+        if (IsKeyPressed(KEY_F3)) metricsToggle();
+
         if (mode == GameMode::Play) {
             Poly99Input input = {};
             buildInput(input, camera, snap, touch);
@@ -108,6 +113,7 @@ int main(void) {
         } else {
             SetMasterVolume(settings.masterVolume);
         }
+        metricsEndUpdate();
 
         BeginDrawing();
         ClearBackground(BLACK);
@@ -122,6 +128,8 @@ int main(void) {
             else if (touch) drawTouchControls();
         }
         uiDraw(mode, settings, touch, snap.gameOver != 0);
+        drawMetrics();
+        metricsEndDraw();
         EndDrawing();
     }
 
