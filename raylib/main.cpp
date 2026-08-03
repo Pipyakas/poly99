@@ -4,6 +4,7 @@
 #include "input.h"
 #include "raylib.h"
 #include "renderer.h"
+#include "ui.h"
 
 #include <cmath>
 
@@ -46,9 +47,15 @@ int main(void) {
 
     SetTargetFPS(60);
 
+    SettingsData settings;
+    uiInit(settings);
+    SetMasterVolume(settings.masterVolume);
+
     unsigned int seed = (unsigned int)(GetTime() * 1000.0f) ^ 0x9E3779B9u;
     poly99_init(seed, &app.core);
     initTouchSetting(POLY99_DEFAULT_TOUCH);
+
+    GameMode mode = GameMode::Play;
 
     int prevEnemies = 0;
     int prevBullets = 0;
@@ -80,22 +87,26 @@ int main(void) {
         poly99_get_snapshot(&snap);
 
         const bool touch = touchEnabled();
-        Poly99Input input = {};
-        buildInput(input, camera, snap, touch);
 
-        if (IsKeyPressed(KEY_T)) toggleTouchSetting();
+        uiUpdate(mode, settings, touch, snap.gameOver != 0);
 
-        poly99_tick(dt, &input);
-        poly99_get_snapshot(&snap);
+        if (mode == GameMode::Play) {
+            Poly99Input input = {};
+            buildInput(input, camera, snap, touch);
+            poly99_tick(dt, &input);
+            poly99_get_snapshot(&snap);
 
-        int enemies = countAlive(snap, POLY99_ET_ENEMY_GRASSHOPPER);
-        int bullets = countAlive(snap, POLY99_ET_BULLET);
-        if (bullets > prevBullets) playShoot();
-        if (enemies < prevEnemies) playHit();
-        if (snap.wave > prevWave) playWave();
-        prevEnemies = enemies;
-        prevBullets = bullets;
-        prevWave = snap.wave;
+            int enemies = countAlive(snap, POLY99_ET_ENEMY_GRASSHOPPER);
+            int bullets = countAlive(snap, POLY99_ET_BULLET);
+            if (bullets > prevBullets) playShoot();
+            if (enemies < prevEnemies) playHit();
+            if (snap.wave > prevWave) playWave();
+            prevEnemies = enemies;
+            prevBullets = bullets;
+            prevWave = snap.wave;
+        } else {
+            SetMasterVolume(settings.masterVolume);
+        }
 
         BeginDrawing();
         ClearBackground(BLACK);
@@ -103,9 +114,13 @@ int main(void) {
         drawArena(designW, designH, GetTime());
         drawEntities(snap, GetTime());
         EndMode2D();
-        drawHUD(snap, touch);
-        if (touch) drawTouchControls();
-        if (snap.gameOver) drawGameOver(snap, touch);
+
+        if (mode == GameMode::Play) {
+            drawHUD(snap, touch);
+            if (snap.gameOver) drawGameOver(snap, touch);
+            else if (touch) drawTouchControls();
+        }
+        uiDraw(mode, settings, touch, snap.gameOver != 0);
         EndDrawing();
     }
 

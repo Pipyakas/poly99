@@ -13,6 +13,7 @@ add_executable(poly99
     json.cpp
     renderer.cpp
     audio.cpp
+    ui.cpp
 )
 
 if(PLATFORM STREQUAL "Web")

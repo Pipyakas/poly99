@@ -171,7 +171,11 @@ void buildInput(Poly99Input& out, const Camera2D& camera, const Poly99Snapshot& 
     }
 
     if (snap.gameOver) {
-        out.restart = IsKeyPressed(KEY_ENTER) || IsMouseButtonPressed(MOUSE_BUTTON_LEFT);
+        static int prevTouches = 0;
+        int tc = GetTouchPointCount();
+        bool tap = (tc > prevTouches) && tc > 0;
+        prevTouches = tc;
+        out.restart = IsKeyPressed(KEY_ENTER) || IsMouseButtonPressed(MOUSE_BUTTON_LEFT) || tap;
     }
 }
 
