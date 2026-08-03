@@ -19,10 +19,10 @@ instant start), and checks in the background for newer versions.
 
 ## Version manifest
 
-The host must serve `version.json` (e.g. `{"version":"2026-08-03"}`) alongside the web
-build. **During development, the version is the ISO date (`YYYY-MM-DD`) of the deploy.**
-Set it to the current date whenever you publish a new build — the app treats any
-change as an update and will prompt devices to reload.
+The host must serve `version.json` (e.g. `{"version":"2026-08-03T09:20:29+07:00"}`) alongside
+the web build. **During development the version is the GMT+7 ISO timestamp** of the deploy
+(`./scripts/bump-version.sh` writes it), so every publish — even multiple in a day — is a
+unique string the app treats as an update.
 
 ## Install
 
