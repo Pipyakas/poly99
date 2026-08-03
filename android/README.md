@@ -19,9 +19,10 @@ instant start), and checks in the background for newer versions.
 
 ## Version manifest
 
-The host must serve `version.json` (e.g. `{"version":"1.0.0"}`) alongside the web
-build. Bump the version whenever you publish a new build to trigger the update
-prompt on devices.
+The host must serve `version.json` (e.g. `{"version":"2026-08-03"}`) alongside the web
+build. **During development, the version is the ISO date (`YYYY-MM-DD`) of the deploy.**
+Set it to the current date whenever you publish a new build — the app treats any
+change as an update and will prompt devices to reload.
 
 ## Install
 

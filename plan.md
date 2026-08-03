@@ -146,7 +146,7 @@ A thin native Android wrapper around the hosted web build, **cache-first with ba
 
 - **Architecture**: single-activity app hosting the web build in a fullscreen `WebView` (TWA/Bubblewrap upgrade path if we want "Add to home screen" + launcher integration)
 - **Caching**: game files are downloaded once into app-private storage and served via `shouldInterceptRequest` — no network needed on subsequent launches
-- **Update check**: on launch, fetches `version.json` from the host; when the remote version differs, new files are pre-downloaded and the user is prompted ("Update available — reload?") to swap and reload. Offline hosts fall back to the cached build silently
+- **Update check**: on launch, fetches `version.json` from the host; when the remote version differs, new files are pre-downloaded and the user is prompted ("Update available — reload?") to swap and reload. Offline hosts fall back to the cached build silently. **In dev the version is the ISO date (`YYYY-MM-DD`) of the deploy**, so any new publish triggers the prompt
 - **URL**: points at the published site (e.g. `https://pipyakas.github.io/poly99/`), configurable via the `POLY99_URL` gradle property
 - **Settings**: ⚙ overlay offers Landscape / Portrait / Auto orientation (persisted); cleartext/HTTP only in dev builds; hardware acceleration; back button; fullscreen
 - **Distribution**: GitHub Actions builds the APK on a `android-v*` tag push and attaches it to a GitHub Release (`gh release` / Releases page). Install the APK once; the game inside updates itself
