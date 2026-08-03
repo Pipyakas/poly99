@@ -142,15 +142,16 @@ This is the only header the raylib and UE5 frontends include.
 
 ## Android Frontend (Self-Updatable Test Shell)
 
-A thin native Android wrapper whose entire content is the hosted web build, so the phone **always runs the latest pushed version** — no reinstall or update mechanism needed.
+A thin native Android wrapper around the hosted web build, **cache-first with background updates**: launches serve the locally cached game (instant start, works offline), then quietly check the host for a newer version and prompt the user to reload to update.
 
 - **Architecture**: single-activity app hosting the web build in a fullscreen `WebView` (TWA/Bubblewrap upgrade path if we want "Add to home screen" + launcher integration)
+- **Caching**: game files are downloaded once into app-private storage and served via `shouldInterceptRequest` — no network needed on subsequent launches
+- **Update check**: on launch, fetches `version.json` from the host; when the remote version differs, new files are pre-downloaded and the user is prompted ("Update available — reload?") to swap and reload. Offline hosts fall back to the cached build silently
 - **URL**: points at the published site (e.g. `https://pipyakas.github.io/poly99/`), configurable via the `POLY99_URL` gradle property
-- **Self-updating**: inherent — content is fetched fresh from hosting on each launch; any `gh-pages` push is instantly the latest build on the device
-- **Distribution**: GitHub Actions builds the APK on a `android-v*` tag push and attaches it to a GitHub Release (`gh release` / Releases page). Install the APK once; the game inside updates itself forever
-- **Settings**: allow cleartext/HTTP only in dev builds; enable hardware acceleration; handle back button, orientation, and fullscreen
-- **Dependency**: Android shell needs no raylib/UE5/CMake knowledge — it only requires the web build to be published
-- **Build**: `./gradlew assembleDebug` from `android/`; CI flow is `git tag android-v1 && git push --tags`
+- **Settings**: ⚙ overlay offers Landscape / Portrait / Auto orientation (persisted); cleartext/HTTP only in dev builds; hardware acceleration; back button; fullscreen
+- **Distribution**: GitHub Actions builds the APK on a `android-v*` tag push and attaches it to a GitHub Release (`gh release` / Releases page). Install the APK once; the game inside updates itself
+- **Dependency**: Android shell needs no raylib/UE5/CMake knowledge — it only requires the web build + `version.json` to be published
+- **Build**: `./gradlew assembleDebug` from `android/`; CI flow is `git tag android-v2 && git push --tags`
 - **Note**: phone testing needs touch input in the web build (see raylib section); shell works today for desktop-controlled preview but the web frontend must gain touch/gamepad controls for real on-device play
 
 ---

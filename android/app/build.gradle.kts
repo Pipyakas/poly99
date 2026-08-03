@@ -11,8 +11,8 @@ android {
         applicationId = "com.pipyakas.poly99"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
 
         val url = (project.findProperty("POLY99_URL") as String?) ?: "https://pipyakas.github.io/poly99/"
         buildConfigField("String", "POLY99_URL", "\"$url\"")
