@@ -177,11 +177,19 @@ A thin native Android wrapper around the hosted web build, **cache-first with ba
 # one-time clone (includes the raylib submodule)
 git submodule update --init --recursive
 
-# raylib web build
+# raylib web build (WebGL2 / OpenGL ES 3.0)
 cd poly99
-emcmake cmake -B build-web -DPLATFORM=Web
+emcmake cmake -B build-web -DPLATFORM=Web -DOPENGL_VERSION="ES 3.0"
 cmake --build build-web
 npx serve build-web
+
+# rlgl software rendering path (experimental, desktop only — GL 1.1 fixed-function)
+cmake -B build-soft -DPLATFORM=Desktop -DOPENGL_VERSION="Software"
+cmake --build build-soft
+
+# rlgl desktop GL build
+cmake -B build-desktop -DPLATFORM=Desktop
+cmake --build build-desktop
 
 # android shell (built by CI on `android-v*` tags; manual fallback below)
 cd android && ./gradlew assembleDebug

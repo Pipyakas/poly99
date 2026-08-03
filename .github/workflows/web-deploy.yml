@@ -42,7 +42,7 @@ jobs:
 
       - name: Configure
         if: steps.check.outputs.exists == 'true'
-        run: emcmake cmake -B build-web -DPLATFORM=Web
+        run: emcmake cmake -B build-web -DPLATFORM=Web -DOPENGL_VERSION="ES 3.0"
 
       - name: Build
         if: steps.check.outputs.exists == 'true'

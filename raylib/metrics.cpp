@@ -35,39 +35,59 @@ Metrics m;
 double now() { return GetTime(); }
 
 #if defined(__EMSCRIPTEN__)
-void gpuBegin() {
+void gpuInit() {
     EM_ASM({
+        if (window.__poly99Timer) return;
         var gl = Module.ctx || (typeof GL !== 'undefined' && GL.currentContext && GL.currentContext.GLctx);
         if (!gl) return;
-        var ext = gl.getExtension('EXT_disjoint_timer_query') || gl.getExtension('EXT_disjoint_timer_query_webgl2');
-        if (!ext) return;
-        if (window.__poly99Q) return;
-        window.__poly99Q = gl.createQuery();
-        gl.beginQuery(ext.TIME_ELAPSED_EXT, window.__poly99Q);
+        var ext2 = gl.getExtension('EXT_disjoint_timer_query_webgl2');
+        if (ext2) { window.__poly99Timer = { gl: gl, ext: ext2, webgl2: true }; return; }
+        var ext1 = gl.getExtension('EXT_disjoint_timer_query');
+        if (ext1) { window.__poly99Timer = { gl: gl, ext: ext1, webgl2: false }; }
+    });
+}
+
+void gpuBegin() {
+    EM_ASM({
+        var t = window.__poly99Timer;
+        if (!t || window.__poly99Q) return;
+        if (t.webgl2) {
+            window.__poly99Q = t.gl.createQuery();
+            t.gl.beginQuery(t.ext.TIME_ELAPSED_EXT, window.__poly99Q);
+        } else {
+            window.__poly99Q = t.ext.createQueryEXT();
+            t.ext.beginQueryEXT(t.ext.TIME_ELAPSED_EXT, window.__poly99Q);
+        }
     });
 }
 
 void gpuEnd() {
     EM_ASM({
-        var gl = Module.ctx || (typeof GL !== 'undefined' && GL.currentContext && GL.currentContext.GLctx);
-        if (!gl) return;
-        var ext = gl.getExtension('EXT_disjoint_timer_query') || gl.getExtension('EXT_disjoint_timer_query_webgl2');
-        if (!ext || !window.__poly99Q) return;
-        gl.endQuery(ext.TIME_ELAPSED_EXT);
+        var t = window.__poly99Timer;
+        if (!t || !window.__poly99Q) return;
+        if (t.webgl2) t.gl.endQuery(t.ext.TIME_ELAPSED_EXT);
+        else t.ext.endQueryEXT(t.ext.TIME_ELAPSED_EXT);
     });
 }
 
 double gpuReadMs() {
     double r = EM_ASM_DOUBLE({
-        var gl = Module.ctx || (typeof GL !== 'undefined' && GL.currentContext && GL.currentContext.GLctx);
-        if (!gl) return -1;
-        var ext = gl.getExtension('EXT_disjoint_timer_query') || gl.getExtension('EXT_disjoint_timer_query_webgl2');
-        if (!ext || !window.__poly99Q) return -1;
-        if (gl.getQueryParameter(window.__poly99Q, ext.QUERY_RESULT_AVAILABLE_EXT)) {
-            var ns = gl.getQueryParameter(window.__poly99Q, ext.QUERY_RESULT_EXT);
-            gl.deleteQuery(window.__poly99Q);
-            window.__poly99Q = null;
-            return ns / 1000000.0;
+        var t = window.__poly99Timer;
+        if (!t || !window.__poly99Q) return -1;
+        if (t.webgl2) {
+            if (t.gl.getQueryParameter(window.__poly99Q, t.ext.QUERY_RESULT_AVAILABLE_EXT)) {
+                var ns = t.gl.getQueryParameter(window.__poly99Q, t.ext.QUERY_RESULT_EXT);
+                t.gl.deleteQuery(window.__poly99Q);
+                window.__poly99Q = null;
+                return ns / 1000000.0;
+            }
+        } else {
+            if (t.ext.getQueryParameterEXT(window.__poly99Q, t.ext.QUERY_RESULT_AVAILABLE_EXT)) {
+                var ns = t.ext.getQueryParameterEXT(window.__poly99Q, t.ext.QUERY_RESULT_EXT);
+                t.ext.deleteQueryEXT(window.__poly99Q);
+                window.__poly99Q = null;
+                return ns / 1000000.0;
+            }
         }
         return -1;
     });
@@ -91,6 +111,7 @@ void getRam(long long& used, long long& total) {
     total = (long long)EM_ASM_INT({ return HEAPU8.length; });
 }
 #else
+void gpuInit() {}
 void gpuBegin() {}
 void gpuEnd() {}
 double gpuReadMs() { return -1; }
@@ -125,6 +146,7 @@ void formatBytes(char* out, int size, long long bytes) {
 } // namespace
 
 void metricsInit() {
+    gpuInit();
     getGpuName(m.gpuName, sizeof(m.gpuName));
     Texture2D font = GetFontDefault().texture;
     if (font.id != 0) metricsAddTextureBytes(font.width * font.height * 4);
