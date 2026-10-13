@@ -494,7 +494,8 @@ def main():
             hard=True, only=HAND_BONES)
 
     # ---------------- LEGS ---------------------------------------------------
-    S.undersuit("legs", lambda fi: slot[fi] == "legs", "Suit_Legs")
+    S.undersuit("legs", lambda fi: slot[fi] == "legs", "Suit_Legs",
+                standoff=1.5)
     for sd in ("l", "r"):
         S.plate("legs", P["tasset_" + sd], "Plate_Tasset_" + sd,
                 outer=2.8, relax=12, facet=11.0, trim=True)

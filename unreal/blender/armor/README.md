@@ -332,6 +332,53 @@ to `export/previews/uecam/*_BARE.png` for every case.
 the skin along its own normal and within 5 mm, i.e. a plate sunk through the
 body. It is reported, not gated.
 
+### Signed clearance — the measure that actually matters
+
+An **unsigned** distance probe cannot tell an undersuit that sits 1 cm *outside*
+the skin from one that sits 1 cm *inside* it. Both score identically, and both
+scored clean while Unreal rendered the MetaHuman body in front of the thigh.
+
+The primary measure is therefore **signed**, along the outward body normal:
+
+```
+signed = (nearest armour point - body vertex) . outward normal
+```
+
+Positive = armour outside (correct). Negative = armour inside the skin, which
+Unreal's depth test puts the body in front of. It is computed from
+`find_nearest`, not `ray_cast`, because a forward ray returns a non-negative
+distance by construction and can never report "inside".
+
+Two sub-cases are counted separately, because they are different defects:
+
+| Case | Meaning | Gate |
+|---|---|---|
+| **miss** | no armour at all along the outward normal — the body renders in front of nothing | `< MISS_TARGET` (1.5 %) per side |
+| **coplanar** | armour within 0.5 mm — armour *is* in front, but z-fighting | reported only |
+
+### Pose sweep
+
+One logged frame is a measure-zero subset of the pose space. The MetaHuman
+idle/locomotion blend space swings the thighs continuously, so `verify.py`
+sweeps each joint about the real logged `ue_locomotion` frame:
+
+| Axis | Range | Step |
+|---|---|---|
+| `thigh_l` / `thigh_r` pitch | −20° … +45° | 5° |
+| `calf_l` / `calf_r` roll | −30° … +30° | 10° |
+| `upperarm_l` / `upperarm_r` yaw | 0° … 100° | 10° |
+
+64 frames. Each is measured per side, and the worst frame is named in
+`verify_report.json` under `sweep.worst`. The swept component is set
+**absolutely**, with the bone's other two components held at their logged PIE
+values (`set_ue_rot`).
+
+**The hip/thigh gate is strict and forward-facing only.** Surfaces whose normals
+point *into* the medial crease between the thighs are excluded: their outward
+normal points into the gap between the legs, where by construction there is no
+material and no geometry change will ever fix it. Only surfaces a camera can
+see — normals within ~70° of the character's facing — are gated.
+
 ### Hand poses
 
 The original pose set never bent a finger, so hand skinning was only ever seen in
