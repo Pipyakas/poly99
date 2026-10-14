@@ -100,12 +100,39 @@ extracted archives). Keep scripts out of data directories; pass paths as argumen
 
 ## T3 Code on D1
 
-- Project registered with `t3 project add /var/mnt/ssd1/poly99 --title poly99` via
-  `~/.local/bin/t3` (D1's t3code). It is bound to the repo root, so `worktreeStrategy` defaults work
-  from that checkout. This thread is bound to the **L1** path and should be left to settle.
-- A D1 thread was created via `t3_thread_launch` on this composer before handoff; verify it from the
-  D1 T3 app if it did not appear.
-- `git status` on D1 was clean at handoff (`## main...origin/main`).
+- **Project registered** on D1's t3code (`~/.local/bin/t3`, service `t3 serve` on 0.0.0.0:3773):
+  `t3 project add /var/mnt/ssd1/poly99 --title poly99`
+  - project id `cd59bf42-5269-418c-b69f-5c92c9f58953`, workspace `/var/mnt/ssd1/poly99`,
+    verified in `~/.t3/userdata/state.sqlite` (`projection_projects`).
+- **No thread on D1 yet.** Create the first one from the T3 app on D1 (open the `poly99` project).
+  Do not launch it from L1: this session's `t3_thread_launch` targets **L1's** t3code instance, so a
+  thread launched here would be bound to `C:\UnrealProjects\poly99`, not the D1 checkout.
+- L1's `poly99` project (`mcp:ce417856-...`) is retired. Leave it; it is harmless once L1's own
+  checkout is deleted.
+- When D1's editor runs, add the `unreal` MCP server (Epic's experimental UE MCP, project toolset
+  `poly99_toolset.toolset.Poly99Toolset`) and `blender-mcp` (port 9876) to D1's Claude Code user
+  config. Neither is configured on D1 today (`claude mcp list` is empty there).
+- D1's T3 API needs a Clerk DPoP session, so bearer tokens from `t3 auth session issue` are **not**
+  accepted by `/mcp` or `/api/*`. Don't spend time on remote HTTP calls to D1's t3code; drive it
+  through the app or the CLI instead.
+
+## First thread brief for D1
+
+Suggested title: `poly99 on D1 — build UE Linux editor`. Message to start it:
+
+> Read `unreal/HANDOFF-D1.md` first, then `unreal/HANDOFF.md`. This checkout is
+> `/var/mnt/ssd1/poly99` on D1 (Bazzite, AMD RX 6700 XT is the main GPU; the RTX 2060 is secondary).
+> Engine source is already at `/var/mnt/ssd2/UE_5.8` (5.8.3-release, Setup.sh + project files done,
+> editor NOT yet compiled). Start with:
+> 1. Build the editor:
+>    `cd /var/mnt/ssd2/UE_5.8 && ./Engine/Build/BatchFiles/Linux/Build.sh UEEditor Linux Development -waitmutex -MaxParallelActions=10`
+> 2. Build the project: `bash /var/mnt/ssd1/poly99/unreal/pipeline/tools/rebuild-linux.sh`
+> 3. Launch and verify under Vulkan on the RX 6700 XT. DLSS does not exist on Linux; TSR is the
+>    upscaler. Report honestly which of Lumen, MegaLights, hardware RT, Nanite and VSM actually work.
+> 4. Measure GPU time at 2560x1440 using the headless CSV method in HANDOFF.md and report real numbers.
+> Owner rules: PIE is gamepad-only and must not capture the mouse; drive tests through
+> `UPoly99Simulation::SetInputOverride`; no full-desktop screenshots; verify worker results yourself;
+> never grade yourself; no Claude/Anthropic commit trailers; do not commit unless asked.
 
 ## Open work items carried over
 
