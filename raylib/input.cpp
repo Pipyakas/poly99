@@ -137,6 +137,11 @@ void buildInput(Poly99Input& out, const Camera2D& camera, const Poly99Snapshot& 
     out.moveX = moveX;
     out.moveY = moveY;
 
+    /* Dash: the core latches the rising edge, so just report the held state.
+       Space is taken by firing, so the shift keys drive the burst. */
+    out.dash = IsKeyDown(KEY_LEFT_SHIFT) || IsKeyDown(KEY_RIGHT_SHIFT) ||
+               IsGamepadButtonDown(0, GAMEPAD_BUTTON_LEFT_SHOULDER) ? 1 : 0;
+
     if (touch) {
         updateTouchSticks();
         Vector2 m = stickAxis(moveStick);

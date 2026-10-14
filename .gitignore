@@ -11,3 +11,18 @@ android/.kotlin/
 # CMake builds
 build-*/
 deploy-page/
+
+# Unreal Engine generated
+**/Intermediate/
+**/DerivedDataCache/
+**/Saved/
+
+# UE plugin build output (regenerable; DLSS/StreamlineNGXCommon vendor binaries
+# and all module .pdb/.dll stay local — see INSTALL-DLSS.md)
+unreal/Poly99Game/Binaries/
+unreal/Poly99Game/Plugins/*/Binaries/
+unreal/Poly99Game/Plugins/*/Intermediate/
+
+# Python caches
+__pycache__/
+*.pyc

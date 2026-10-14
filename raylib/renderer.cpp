@@ -38,6 +38,26 @@ void drawDiamondGlow(Vector2 center, float rot, float r, Color c) {
     DrawPolyLinesEx(center, 4, r, rot * 180.0f / (float)PI + 45.0f, 2.0f, c);
 }
 
+void drawSquareGlow(Vector2 center, float r, Color c) {
+    const int layers = 4;
+    for (int i = layers; i >= 1; i--) {
+        float rr = r + i * 5.0f;
+        float a = 0.10f * (1.0f - (float)i / (float)layers);
+        Rectangle outer;
+        outer.x = center.x - rr;
+        outer.y = center.y - rr;
+        outer.width = rr * 2.0f;
+        outer.height = rr * 2.0f;
+        DrawRectangleLinesEx(outer, 2.0f, withAlpha(c, a));
+    }
+    Rectangle inner;
+    inner.x = center.x - r;
+    inner.y = center.y - r;
+    inner.width = r * 2.0f;
+    inner.height = r * 2.0f;
+    DrawRectangleLinesEx(inner, 2.0f, c);
+}
+
 void drawCircleGlow(Vector2 center, float r, Color c) {
     const int layers = 4;
     for (int i = layers; i >= 1; i--) {
@@ -77,6 +97,9 @@ void drawEntities(const Poly99Snapshot& snap, float time) {
                 break;
             case POLY99_ET_ENEMY_GRASSHOPPER:
                 drawDiamondGlow(pos, e.rot, e.radius, c);
+                break;
+            case POLY99_ET_ENEMY_WANDERER:
+                drawSquareGlow(pos, e.radius, c);
                 break;
             default:
                 break;

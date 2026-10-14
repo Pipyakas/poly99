@@ -1,9 +1,15 @@
+cmake_minimum_required(VERSION 3.16)
+
 add_library(poly99_core STATIC poly99.cpp)
 
 target_include_directories(poly99_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
-target_compile_options(poly99_core PRIVATE -Wall -Wextra)
-target_link_libraries(poly99_core PRIVATE m)
+if(MSVC)
+    target_compile_options(poly99_core PRIVATE /W4)
+else()
+    target_compile_options(poly99_core PRIVATE -Wall -Wextra)
+    target_link_libraries(poly99_core PRIVATE m)
+endif()
 
 add_executable(core_tests core_tests.cpp)
 target_link_libraries(core_tests poly99_core)

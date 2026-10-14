@@ -102,7 +102,8 @@ int main(void) {
             poly99_tick(dt, &input);
             poly99_get_snapshot(&snap);
 
-            int enemies = countAlive(snap, POLY99_ET_ENEMY_GRASSHOPPER);
+            int enemies = countAlive(snap, POLY99_ET_ENEMY_GRASSHOPPER) +
+                          countAlive(snap, POLY99_ET_ENEMY_WANDERER);
             int bullets = countAlive(snap, POLY99_ET_BULLET);
             if (bullets > prevBullets) playShoot();
             if (enemies < prevEnemies) playHit();

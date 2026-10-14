@@ -19,6 +19,15 @@ struct GameState {
     int   gameOver;
     int   playerIndex;
     unsigned int randState;
+    /* dash */
+    int   dashing;
+    float dashTimeLeft;
+    float dashCooldown;
+    float dashDirX, dashDirY;
+    int   dashHeldPrev;
+    /* events */
+    Poly99Event events[POLY99_MAX_EVENTS];
+    int   eventCount;
 };
 
 #endif /* POLY99_H */
