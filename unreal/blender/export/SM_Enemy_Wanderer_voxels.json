@@ -1,0 +1,7081 @@
+{
+  "asset": "SM_Enemy_Wanderer_voxels",
+  "voxel_size_cm": 6.0,
+  "grid_origin_ue_cm": [
+    -3.0000000000000027,
+    -3.0000000000000027,
+    0.0
+  ],
+  "axes": "UE: X forward, Y right, Z up; origin at base center (floor contact)",
+  "voxel_count": 589,
+  "voxels": [
+    {
+      "i": -6,
+      "j": -6,
+      "k": 0,
+      "center_ue_cm": [
+        -36.0,
+        -36.0,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -6,
+      "j": -6,
+      "k": 1,
+      "center_ue_cm": [
+        -36.0,
+        -36.0,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -6,
+      "j": 6,
+      "k": 0,
+      "center_ue_cm": [
+        -36.0,
+        36.0,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -6,
+      "j": 6,
+      "k": 1,
+      "center_ue_cm": [
+        -36.0,
+        36.0,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -5,
+      "k": 0,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -30.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": -5,
+      "k": 1,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -30.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": -5,
+      "k": 2,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -30.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -5,
+      "k": 3,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -30.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -5,
+      "k": 4,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -30.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -4,
+      "k": 0,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -24.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": -4,
+      "k": 1,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -24.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -4,
+      "k": 2,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -24.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -4,
+      "k": 3,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -24.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -4,
+      "k": 4,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -24.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -3,
+      "k": 0,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -18.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": -3,
+      "k": 1,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -18.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -3,
+      "k": 2,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -18.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -3,
+      "k": 3,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -18.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -3,
+      "k": 4,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -18.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -2,
+      "k": 0,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -12.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": -2,
+      "k": 1,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -12.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -2,
+      "k": 2,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -12.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -2,
+      "k": 3,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -12.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -2,
+      "k": 4,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -12.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -1,
+      "k": 0,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -6.000000000000003,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": -1,
+      "k": 1,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -6.000000000000003,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -1,
+      "k": 2,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -6.000000000000003,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -1,
+      "k": 3,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -6.000000000000003,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": -1,
+      "k": 4,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -6.000000000000003,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 0,
+      "k": 0,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -2.6645352591003757e-15,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": 0,
+      "k": 1,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -2.6645352591003757e-15,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 0,
+      "k": 2,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -2.6645352591003757e-15,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 0,
+      "k": 3,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -2.6645352591003757e-15,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 0,
+      "k": 4,
+      "center_ue_cm": [
+        -30.000000000000004,
+        -2.6645352591003757e-15,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 1,
+      "k": 0,
+      "center_ue_cm": [
+        -30.000000000000004,
+        5.999999999999997,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": 1,
+      "k": 1,
+      "center_ue_cm": [
+        -30.000000000000004,
+        5.999999999999997,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 1,
+      "k": 2,
+      "center_ue_cm": [
+        -30.000000000000004,
+        5.999999999999997,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 1,
+      "k": 3,
+      "center_ue_cm": [
+        -30.000000000000004,
+        5.999999999999997,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 1,
+      "k": 4,
+      "center_ue_cm": [
+        -30.000000000000004,
+        5.999999999999997,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 2,
+      "k": 0,
+      "center_ue_cm": [
+        -30.000000000000004,
+        11.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": 2,
+      "k": 1,
+      "center_ue_cm": [
+        -30.000000000000004,
+        11.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 2,
+      "k": 2,
+      "center_ue_cm": [
+        -30.000000000000004,
+        11.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 2,
+      "k": 3,
+      "center_ue_cm": [
+        -30.000000000000004,
+        11.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 2,
+      "k": 4,
+      "center_ue_cm": [
+        -30.000000000000004,
+        11.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 3,
+      "k": 0,
+      "center_ue_cm": [
+        -30.000000000000004,
+        17.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": 3,
+      "k": 1,
+      "center_ue_cm": [
+        -30.000000000000004,
+        17.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 3,
+      "k": 2,
+      "center_ue_cm": [
+        -30.000000000000004,
+        17.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 3,
+      "k": 3,
+      "center_ue_cm": [
+        -30.000000000000004,
+        17.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 3,
+      "k": 4,
+      "center_ue_cm": [
+        -30.000000000000004,
+        17.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 4,
+      "k": 0,
+      "center_ue_cm": [
+        -30.000000000000004,
+        23.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": 4,
+      "k": 1,
+      "center_ue_cm": [
+        -30.000000000000004,
+        23.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 4,
+      "k": 2,
+      "center_ue_cm": [
+        -30.000000000000004,
+        23.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 4,
+      "k": 3,
+      "center_ue_cm": [
+        -30.000000000000004,
+        23.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 4,
+      "k": 4,
+      "center_ue_cm": [
+        -30.000000000000004,
+        23.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 5,
+      "k": 0,
+      "center_ue_cm": [
+        -30.000000000000004,
+        29.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": 5,
+      "k": 1,
+      "center_ue_cm": [
+        -30.000000000000004,
+        29.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -5,
+      "j": 5,
+      "k": 2,
+      "center_ue_cm": [
+        -30.000000000000004,
+        29.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 5,
+      "k": 3,
+      "center_ue_cm": [
+        -30.000000000000004,
+        29.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -5,
+      "j": 5,
+      "k": 4,
+      "center_ue_cm": [
+        -30.000000000000004,
+        29.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -5,
+      "k": 0,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -30.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -4,
+      "j": -5,
+      "k": 1,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -30.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -5,
+      "k": 2,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -30.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -5,
+      "k": 3,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -30.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -5,
+      "k": 4,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -30.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -4,
+      "k": 0,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -24.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -4,
+      "j": -4,
+      "k": 2,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -24.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -4,
+      "k": 4,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -24.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -4,
+      "k": 5,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -24.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -3,
+      "k": 0,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -18.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -4,
+      "j": -3,
+      "k": 1,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -18.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -3,
+      "k": 3,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -18.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -3,
+      "k": 5,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -18.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -2,
+      "k": 0,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -12.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -4,
+      "j": -2,
+      "k": 2,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -12.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -2,
+      "k": 4,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -12.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -2,
+      "k": 5,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -12.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -1,
+      "k": 0,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -6.000000000000003,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -4,
+      "j": -1,
+      "k": 1,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -6.000000000000003,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -1,
+      "k": 3,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -6.000000000000003,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": -1,
+      "k": 5,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -6.000000000000003,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 0,
+      "k": 0,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -2.6645352591003757e-15,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -4,
+      "j": 0,
+      "k": 2,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -2.6645352591003757e-15,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 0,
+      "k": 4,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -2.6645352591003757e-15,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 0,
+      "k": 5,
+      "center_ue_cm": [
+        -24.000000000000004,
+        -2.6645352591003757e-15,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 1,
+      "k": 0,
+      "center_ue_cm": [
+        -24.000000000000004,
+        5.999999999999997,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -4,
+      "j": 1,
+      "k": 1,
+      "center_ue_cm": [
+        -24.000000000000004,
+        5.999999999999997,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 1,
+      "k": 3,
+      "center_ue_cm": [
+        -24.000000000000004,
+        5.999999999999997,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 1,
+      "k": 5,
+      "center_ue_cm": [
+        -24.000000000000004,
+        5.999999999999997,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 2,
+      "k": 0,
+      "center_ue_cm": [
+        -24.000000000000004,
+        11.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -4,
+      "j": 2,
+      "k": 2,
+      "center_ue_cm": [
+        -24.000000000000004,
+        11.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 2,
+      "k": 4,
+      "center_ue_cm": [
+        -24.000000000000004,
+        11.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 2,
+      "k": 5,
+      "center_ue_cm": [
+        -24.000000000000004,
+        11.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 3,
+      "k": 0,
+      "center_ue_cm": [
+        -24.000000000000004,
+        17.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -4,
+      "j": 3,
+      "k": 1,
+      "center_ue_cm": [
+        -24.000000000000004,
+        17.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 3,
+      "k": 3,
+      "center_ue_cm": [
+        -24.000000000000004,
+        17.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 3,
+      "k": 5,
+      "center_ue_cm": [
+        -24.000000000000004,
+        17.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 4,
+      "k": 0,
+      "center_ue_cm": [
+        -24.000000000000004,
+        23.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -4,
+      "j": 4,
+      "k": 2,
+      "center_ue_cm": [
+        -24.000000000000004,
+        23.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 4,
+      "k": 4,
+      "center_ue_cm": [
+        -24.000000000000004,
+        23.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 4,
+      "k": 5,
+      "center_ue_cm": [
+        -24.000000000000004,
+        23.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 5,
+      "k": 0,
+      "center_ue_cm": [
+        -24.000000000000004,
+        29.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -4,
+      "j": 5,
+      "k": 1,
+      "center_ue_cm": [
+        -24.000000000000004,
+        29.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 5,
+      "k": 2,
+      "center_ue_cm": [
+        -24.000000000000004,
+        29.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 5,
+      "k": 3,
+      "center_ue_cm": [
+        -24.000000000000004,
+        29.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -4,
+      "j": 5,
+      "k": 4,
+      "center_ue_cm": [
+        -24.000000000000004,
+        29.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -5,
+      "k": 0,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -30.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -3,
+      "j": -5,
+      "k": 1,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -30.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -5,
+      "k": 2,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -30.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -5,
+      "k": 3,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -30.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -5,
+      "k": 4,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -30.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -4,
+      "k": 0,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -24.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -3,
+      "j": -4,
+      "k": 1,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -24.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -4,
+      "k": 3,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -24.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -4,
+      "k": 5,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -24.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -3,
+      "k": 0,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -18.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -3,
+      "j": -3,
+      "k": 2,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -18.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -3,
+      "k": 4,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -18.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -3,
+      "k": 6,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -18.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -2,
+      "k": 0,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -12.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -3,
+      "j": -2,
+      "k": 1,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -12.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -2,
+      "k": 3,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -12.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -2,
+      "k": 5,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -12.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -2,
+      "k": 6,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -12.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -1,
+      "k": 0,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -6.000000000000003,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -3,
+      "j": -1,
+      "k": 2,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -6.000000000000003,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -1,
+      "k": 4,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -6.000000000000003,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": -1,
+      "k": 6,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -6.000000000000003,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 0,
+      "k": 0,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -2.6645352591003757e-15,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -3,
+      "j": 0,
+      "k": 1,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -2.6645352591003757e-15,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 0,
+      "k": 3,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -2.6645352591003757e-15,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 0,
+      "k": 5,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -2.6645352591003757e-15,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 0,
+      "k": 6,
+      "center_ue_cm": [
+        -18.000000000000004,
+        -2.6645352591003757e-15,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 1,
+      "k": 0,
+      "center_ue_cm": [
+        -18.000000000000004,
+        5.999999999999997,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -3,
+      "j": 1,
+      "k": 2,
+      "center_ue_cm": [
+        -18.000000000000004,
+        5.999999999999997,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 1,
+      "k": 4,
+      "center_ue_cm": [
+        -18.000000000000004,
+        5.999999999999997,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 1,
+      "k": 6,
+      "center_ue_cm": [
+        -18.000000000000004,
+        5.999999999999997,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 2,
+      "k": 0,
+      "center_ue_cm": [
+        -18.000000000000004,
+        11.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -3,
+      "j": 2,
+      "k": 1,
+      "center_ue_cm": [
+        -18.000000000000004,
+        11.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 2,
+      "k": 3,
+      "center_ue_cm": [
+        -18.000000000000004,
+        11.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 2,
+      "k": 5,
+      "center_ue_cm": [
+        -18.000000000000004,
+        11.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 2,
+      "k": 6,
+      "center_ue_cm": [
+        -18.000000000000004,
+        11.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 3,
+      "k": 0,
+      "center_ue_cm": [
+        -18.000000000000004,
+        17.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -3,
+      "j": 3,
+      "k": 2,
+      "center_ue_cm": [
+        -18.000000000000004,
+        17.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 3,
+      "k": 4,
+      "center_ue_cm": [
+        -18.000000000000004,
+        17.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 3,
+      "k": 6,
+      "center_ue_cm": [
+        -18.000000000000004,
+        17.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 4,
+      "k": 0,
+      "center_ue_cm": [
+        -18.000000000000004,
+        23.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -3,
+      "j": 4,
+      "k": 1,
+      "center_ue_cm": [
+        -18.000000000000004,
+        23.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 4,
+      "k": 3,
+      "center_ue_cm": [
+        -18.000000000000004,
+        23.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 4,
+      "k": 5,
+      "center_ue_cm": [
+        -18.000000000000004,
+        23.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 5,
+      "k": 0,
+      "center_ue_cm": [
+        -18.000000000000004,
+        29.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -3,
+      "j": 5,
+      "k": 1,
+      "center_ue_cm": [
+        -18.000000000000004,
+        29.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 5,
+      "k": 2,
+      "center_ue_cm": [
+        -18.000000000000004,
+        29.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 5,
+      "k": 3,
+      "center_ue_cm": [
+        -18.000000000000004,
+        29.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -3,
+      "j": 5,
+      "k": 4,
+      "center_ue_cm": [
+        -18.000000000000004,
+        29.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -5,
+      "k": 0,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -30.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -2,
+      "j": -5,
+      "k": 1,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -30.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -5,
+      "k": 2,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -30.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -5,
+      "k": 3,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -30.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -5,
+      "k": 4,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -30.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -4,
+      "k": 0,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -24.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -2,
+      "j": -4,
+      "k": 2,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -24.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -4,
+      "k": 4,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -24.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -4,
+      "k": 5,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -24.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -3,
+      "k": 0,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -18.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -2,
+      "j": -3,
+      "k": 1,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -18.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -3,
+      "k": 3,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -18.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -3,
+      "k": 5,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -18.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -3,
+      "k": 6,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -18.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -2,
+      "k": 0,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -12.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -2,
+      "j": -2,
+      "k": 2,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -12.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -2,
+      "k": 4,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -12.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -2,
+      "k": 6,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -12.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -2,
+      "k": 7,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -12.000000000000004,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -1,
+      "k": 0,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -6.000000000000003,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -2,
+      "j": -1,
+      "k": 1,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -6.000000000000003,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -1,
+      "k": 3,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -6.000000000000003,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -1,
+      "k": 5,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -6.000000000000003,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": -1,
+      "k": 7,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -6.000000000000003,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 0,
+      "k": 0,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -2.6645352591003757e-15,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -2,
+      "j": 0,
+      "k": 2,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -2.6645352591003757e-15,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 0,
+      "k": 4,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -2.6645352591003757e-15,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 0,
+      "k": 6,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -2.6645352591003757e-15,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 0,
+      "k": 7,
+      "center_ue_cm": [
+        -12.000000000000004,
+        -2.6645352591003757e-15,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 1,
+      "k": 0,
+      "center_ue_cm": [
+        -12.000000000000004,
+        5.999999999999997,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -2,
+      "j": 1,
+      "k": 1,
+      "center_ue_cm": [
+        -12.000000000000004,
+        5.999999999999997,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 1,
+      "k": 3,
+      "center_ue_cm": [
+        -12.000000000000004,
+        5.999999999999997,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 1,
+      "k": 5,
+      "center_ue_cm": [
+        -12.000000000000004,
+        5.999999999999997,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 1,
+      "k": 7,
+      "center_ue_cm": [
+        -12.000000000000004,
+        5.999999999999997,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 2,
+      "k": 0,
+      "center_ue_cm": [
+        -12.000000000000004,
+        11.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -2,
+      "j": 2,
+      "k": 2,
+      "center_ue_cm": [
+        -12.000000000000004,
+        11.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 2,
+      "k": 4,
+      "center_ue_cm": [
+        -12.000000000000004,
+        11.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 2,
+      "k": 6,
+      "center_ue_cm": [
+        -12.000000000000004,
+        11.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 2,
+      "k": 7,
+      "center_ue_cm": [
+        -12.000000000000004,
+        11.999999999999996,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 3,
+      "k": 0,
+      "center_ue_cm": [
+        -12.000000000000004,
+        17.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -2,
+      "j": 3,
+      "k": 1,
+      "center_ue_cm": [
+        -12.000000000000004,
+        17.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 3,
+      "k": 3,
+      "center_ue_cm": [
+        -12.000000000000004,
+        17.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 3,
+      "k": 5,
+      "center_ue_cm": [
+        -12.000000000000004,
+        17.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 3,
+      "k": 6,
+      "center_ue_cm": [
+        -12.000000000000004,
+        17.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 4,
+      "k": 0,
+      "center_ue_cm": [
+        -12.000000000000004,
+        23.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -2,
+      "j": 4,
+      "k": 2,
+      "center_ue_cm": [
+        -12.000000000000004,
+        23.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 4,
+      "k": 4,
+      "center_ue_cm": [
+        -12.000000000000004,
+        23.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 4,
+      "k": 5,
+      "center_ue_cm": [
+        -12.000000000000004,
+        23.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 5,
+      "k": 0,
+      "center_ue_cm": [
+        -12.000000000000004,
+        29.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -2,
+      "j": 5,
+      "k": 1,
+      "center_ue_cm": [
+        -12.000000000000004,
+        29.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 5,
+      "k": 2,
+      "center_ue_cm": [
+        -12.000000000000004,
+        29.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 5,
+      "k": 3,
+      "center_ue_cm": [
+        -12.000000000000004,
+        29.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -2,
+      "j": 5,
+      "k": 4,
+      "center_ue_cm": [
+        -12.000000000000004,
+        29.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -5,
+      "k": 0,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -30.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -1,
+      "j": -5,
+      "k": 1,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -30.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -5,
+      "k": 2,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -30.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -5,
+      "k": 3,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -30.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -5,
+      "k": 4,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -30.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -4,
+      "k": 0,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -24.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -1,
+      "j": -4,
+      "k": 1,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -24.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -4,
+      "k": 3,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -24.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -4,
+      "k": 5,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -24.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -3,
+      "k": 0,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -18.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -1,
+      "j": -3,
+      "k": 2,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -18.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -3,
+      "k": 4,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -18.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -3,
+      "k": 6,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -18.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -2,
+      "k": 0,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -12.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -1,
+      "j": -2,
+      "k": 1,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -12.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -2,
+      "k": 3,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -12.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -2,
+      "k": 5,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -12.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -2,
+      "k": 7,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -12.000000000000004,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -1,
+      "k": 0,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -6.000000000000003,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -1,
+      "j": -1,
+      "k": 2,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -6.000000000000003,
+        15.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": -1,
+      "k": 3,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -6.000000000000003,
+        21.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": -1,
+      "k": 4,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -6.000000000000003,
+        27.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": -1,
+      "k": 5,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -6.000000000000003,
+        33.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": -1,
+      "k": 6,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -6.000000000000003,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": -1,
+      "k": 7,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -6.000000000000003,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 0,
+      "k": 0,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -2.6645352591003757e-15,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -1,
+      "j": 0,
+      "k": 1,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -2.6645352591003757e-15,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 0,
+      "k": 2,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -2.6645352591003757e-15,
+        15.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": 0,
+      "k": 3,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -2.6645352591003757e-15,
+        21.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": 0,
+      "k": 4,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -2.6645352591003757e-15,
+        27.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": 0,
+      "k": 5,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -2.6645352591003757e-15,
+        33.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": 0,
+      "k": 7,
+      "center_ue_cm": [
+        -6.000000000000003,
+        -2.6645352591003757e-15,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 1,
+      "k": 0,
+      "center_ue_cm": [
+        -6.000000000000003,
+        5.999999999999997,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -1,
+      "j": 1,
+      "k": 2,
+      "center_ue_cm": [
+        -6.000000000000003,
+        5.999999999999997,
+        15.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": 1,
+      "k": 3,
+      "center_ue_cm": [
+        -6.000000000000003,
+        5.999999999999997,
+        21.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": 1,
+      "k": 4,
+      "center_ue_cm": [
+        -6.000000000000003,
+        5.999999999999997,
+        27.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": 1,
+      "k": 5,
+      "center_ue_cm": [
+        -6.000000000000003,
+        5.999999999999997,
+        33.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": -1,
+      "j": 1,
+      "k": 6,
+      "center_ue_cm": [
+        -6.000000000000003,
+        5.999999999999997,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 1,
+      "k": 7,
+      "center_ue_cm": [
+        -6.000000000000003,
+        5.999999999999997,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 2,
+      "k": 0,
+      "center_ue_cm": [
+        -6.000000000000003,
+        11.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -1,
+      "j": 2,
+      "k": 1,
+      "center_ue_cm": [
+        -6.000000000000003,
+        11.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 2,
+      "k": 3,
+      "center_ue_cm": [
+        -6.000000000000003,
+        11.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 2,
+      "k": 5,
+      "center_ue_cm": [
+        -6.000000000000003,
+        11.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 2,
+      "k": 7,
+      "center_ue_cm": [
+        -6.000000000000003,
+        11.999999999999996,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 3,
+      "k": 0,
+      "center_ue_cm": [
+        -6.000000000000003,
+        17.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -1,
+      "j": 3,
+      "k": 2,
+      "center_ue_cm": [
+        -6.000000000000003,
+        17.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 3,
+      "k": 4,
+      "center_ue_cm": [
+        -6.000000000000003,
+        17.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 3,
+      "k": 6,
+      "center_ue_cm": [
+        -6.000000000000003,
+        17.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 4,
+      "k": 0,
+      "center_ue_cm": [
+        -6.000000000000003,
+        23.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -1,
+      "j": 4,
+      "k": 1,
+      "center_ue_cm": [
+        -6.000000000000003,
+        23.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 4,
+      "k": 3,
+      "center_ue_cm": [
+        -6.000000000000003,
+        23.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 4,
+      "k": 5,
+      "center_ue_cm": [
+        -6.000000000000003,
+        23.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 5,
+      "k": 0,
+      "center_ue_cm": [
+        -6.000000000000003,
+        29.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": -1,
+      "j": 5,
+      "k": 1,
+      "center_ue_cm": [
+        -6.000000000000003,
+        29.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 5,
+      "k": 2,
+      "center_ue_cm": [
+        -6.000000000000003,
+        29.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 5,
+      "k": 3,
+      "center_ue_cm": [
+        -6.000000000000003,
+        29.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": -1,
+      "j": 5,
+      "k": 4,
+      "center_ue_cm": [
+        -6.000000000000003,
+        29.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -5,
+      "k": 0,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -30.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": -5,
+      "k": 1,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -30.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -5,
+      "k": 2,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -30.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -5,
+      "k": 3,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -30.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -5,
+      "k": 4,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -30.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -4,
+      "k": 0,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -24.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": -4,
+      "k": 2,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -24.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -4,
+      "k": 4,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -24.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -4,
+      "k": 5,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -24.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -3,
+      "k": 0,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -18.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": -3,
+      "k": 1,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -18.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -3,
+      "k": 3,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -18.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -3,
+      "k": 5,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -18.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -3,
+      "k": 6,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -18.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -2,
+      "k": 0,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -12.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": -2,
+      "k": 2,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -12.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -2,
+      "k": 4,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -12.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -2,
+      "k": 6,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -12.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -2,
+      "k": 7,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -12.000000000000004,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -1,
+      "k": 0,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -6.000000000000003,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": -1,
+      "k": 1,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -6.000000000000003,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": -1,
+      "k": 2,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -6.000000000000003,
+        15.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": -1,
+      "k": 3,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -6.000000000000003,
+        21.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": -1,
+      "k": 4,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -6.000000000000003,
+        27.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": -1,
+      "k": 5,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -6.000000000000003,
+        33.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": -1,
+      "k": 7,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -6.000000000000003,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 0,
+      "k": 0,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -2.6645352591003757e-15,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": 0,
+      "k": 2,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -2.6645352591003757e-15,
+        15.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": 0,
+      "k": 3,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -2.6645352591003757e-15,
+        21.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": 0,
+      "k": 4,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -2.6645352591003757e-15,
+        27.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": 0,
+      "k": 5,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -2.6645352591003757e-15,
+        33.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": 0,
+      "k": 6,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -2.6645352591003757e-15,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 0,
+      "k": 7,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -2.6645352591003757e-15,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 0,
+      "k": 8,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -2.6645352591003757e-15,
+        51.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": 0,
+      "k": 9,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        -2.6645352591003757e-15,
+        57.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "k": 0,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        5.999999999999997,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "k": 1,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        5.999999999999997,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "k": 2,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        5.999999999999997,
+        15.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "k": 3,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        5.999999999999997,
+        21.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "k": 4,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        5.999999999999997,
+        27.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "k": 5,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        5.999999999999997,
+        33.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "k": 7,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        5.999999999999997,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "k": 0,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        11.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "k": 2,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        11.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "k": 4,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        11.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "k": 6,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        11.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "k": 7,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        11.999999999999996,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "k": 0,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        17.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "k": 1,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        17.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "k": 3,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        17.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "k": 5,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        17.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "k": 6,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        17.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "k": 0,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        23.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "k": 2,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        23.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "k": 4,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        23.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "k": 5,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        23.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "k": 0,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        29.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "k": 1,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        29.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "k": 2,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        29.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "k": 3,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        29.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "k": 4,
+      "center_ue_cm": [
+        -2.6645352591003757e-15,
+        29.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -5,
+      "k": 0,
+      "center_ue_cm": [
+        5.999999999999997,
+        -30.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 1,
+      "j": -5,
+      "k": 1,
+      "center_ue_cm": [
+        5.999999999999997,
+        -30.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -5,
+      "k": 2,
+      "center_ue_cm": [
+        5.999999999999997,
+        -30.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -5,
+      "k": 3,
+      "center_ue_cm": [
+        5.999999999999997,
+        -30.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -5,
+      "k": 4,
+      "center_ue_cm": [
+        5.999999999999997,
+        -30.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -4,
+      "k": 0,
+      "center_ue_cm": [
+        5.999999999999997,
+        -24.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 1,
+      "j": -4,
+      "k": 1,
+      "center_ue_cm": [
+        5.999999999999997,
+        -24.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -4,
+      "k": 3,
+      "center_ue_cm": [
+        5.999999999999997,
+        -24.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -4,
+      "k": 5,
+      "center_ue_cm": [
+        5.999999999999997,
+        -24.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -3,
+      "k": 0,
+      "center_ue_cm": [
+        5.999999999999997,
+        -18.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 1,
+      "j": -3,
+      "k": 2,
+      "center_ue_cm": [
+        5.999999999999997,
+        -18.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -3,
+      "k": 4,
+      "center_ue_cm": [
+        5.999999999999997,
+        -18.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -3,
+      "k": 6,
+      "center_ue_cm": [
+        5.999999999999997,
+        -18.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -2,
+      "k": 0,
+      "center_ue_cm": [
+        5.999999999999997,
+        -12.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 1,
+      "j": -2,
+      "k": 1,
+      "center_ue_cm": [
+        5.999999999999997,
+        -12.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -2,
+      "k": 3,
+      "center_ue_cm": [
+        5.999999999999997,
+        -12.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -2,
+      "k": 5,
+      "center_ue_cm": [
+        5.999999999999997,
+        -12.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -2,
+      "k": 7,
+      "center_ue_cm": [
+        5.999999999999997,
+        -12.000000000000004,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -1,
+      "k": 0,
+      "center_ue_cm": [
+        5.999999999999997,
+        -6.000000000000003,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 1,
+      "j": -1,
+      "k": 2,
+      "center_ue_cm": [
+        5.999999999999997,
+        -6.000000000000003,
+        15.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": -1,
+      "k": 3,
+      "center_ue_cm": [
+        5.999999999999997,
+        -6.000000000000003,
+        21.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": -1,
+      "k": 4,
+      "center_ue_cm": [
+        5.999999999999997,
+        -6.000000000000003,
+        27.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": -1,
+      "k": 5,
+      "center_ue_cm": [
+        5.999999999999997,
+        -6.000000000000003,
+        33.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": -1,
+      "k": 6,
+      "center_ue_cm": [
+        5.999999999999997,
+        -6.000000000000003,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": -1,
+      "k": 7,
+      "center_ue_cm": [
+        5.999999999999997,
+        -6.000000000000003,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "k": 0,
+      "center_ue_cm": [
+        5.999999999999997,
+        -2.6645352591003757e-15,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "k": 1,
+      "center_ue_cm": [
+        5.999999999999997,
+        -2.6645352591003757e-15,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "k": 2,
+      "center_ue_cm": [
+        5.999999999999997,
+        -2.6645352591003757e-15,
+        15.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "k": 3,
+      "center_ue_cm": [
+        5.999999999999997,
+        -2.6645352591003757e-15,
+        21.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "k": 4,
+      "center_ue_cm": [
+        5.999999999999997,
+        -2.6645352591003757e-15,
+        27.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "k": 5,
+      "center_ue_cm": [
+        5.999999999999997,
+        -2.6645352591003757e-15,
+        33.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "k": 7,
+      "center_ue_cm": [
+        5.999999999999997,
+        -2.6645352591003757e-15,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "k": 0,
+      "center_ue_cm": [
+        5.999999999999997,
+        5.999999999999997,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "k": 2,
+      "center_ue_cm": [
+        5.999999999999997,
+        5.999999999999997,
+        15.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "k": 3,
+      "center_ue_cm": [
+        5.999999999999997,
+        5.999999999999997,
+        21.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "k": 4,
+      "center_ue_cm": [
+        5.999999999999997,
+        5.999999999999997,
+        27.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "k": 5,
+      "center_ue_cm": [
+        5.999999999999997,
+        5.999999999999997,
+        33.0
+      ],
+      "color_role": "VoxelEmissive",
+      "material": "M_VoxelEmissive"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "k": 6,
+      "center_ue_cm": [
+        5.999999999999997,
+        5.999999999999997,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "k": 7,
+      "center_ue_cm": [
+        5.999999999999997,
+        5.999999999999997,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "k": 0,
+      "center_ue_cm": [
+        5.999999999999997,
+        11.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "k": 1,
+      "center_ue_cm": [
+        5.999999999999997,
+        11.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "k": 3,
+      "center_ue_cm": [
+        5.999999999999997,
+        11.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "k": 5,
+      "center_ue_cm": [
+        5.999999999999997,
+        11.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "k": 7,
+      "center_ue_cm": [
+        5.999999999999997,
+        11.999999999999996,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "k": 0,
+      "center_ue_cm": [
+        5.999999999999997,
+        17.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "k": 2,
+      "center_ue_cm": [
+        5.999999999999997,
+        17.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "k": 4,
+      "center_ue_cm": [
+        5.999999999999997,
+        17.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "k": 6,
+      "center_ue_cm": [
+        5.999999999999997,
+        17.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "k": 0,
+      "center_ue_cm": [
+        5.999999999999997,
+        23.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "k": 1,
+      "center_ue_cm": [
+        5.999999999999997,
+        23.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "k": 3,
+      "center_ue_cm": [
+        5.999999999999997,
+        23.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "k": 5,
+      "center_ue_cm": [
+        5.999999999999997,
+        23.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "k": 0,
+      "center_ue_cm": [
+        5.999999999999997,
+        29.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "k": 1,
+      "center_ue_cm": [
+        5.999999999999997,
+        29.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "k": 2,
+      "center_ue_cm": [
+        5.999999999999997,
+        29.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "k": 3,
+      "center_ue_cm": [
+        5.999999999999997,
+        29.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "k": 4,
+      "center_ue_cm": [
+        5.999999999999997,
+        29.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -5,
+      "k": 0,
+      "center_ue_cm": [
+        11.999999999999996,
+        -30.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 2,
+      "j": -5,
+      "k": 1,
+      "center_ue_cm": [
+        11.999999999999996,
+        -30.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -5,
+      "k": 2,
+      "center_ue_cm": [
+        11.999999999999996,
+        -30.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -5,
+      "k": 3,
+      "center_ue_cm": [
+        11.999999999999996,
+        -30.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -5,
+      "k": 4,
+      "center_ue_cm": [
+        11.999999999999996,
+        -30.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -4,
+      "k": 0,
+      "center_ue_cm": [
+        11.999999999999996,
+        -24.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 2,
+      "j": -4,
+      "k": 2,
+      "center_ue_cm": [
+        11.999999999999996,
+        -24.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -4,
+      "k": 4,
+      "center_ue_cm": [
+        11.999999999999996,
+        -24.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -4,
+      "k": 5,
+      "center_ue_cm": [
+        11.999999999999996,
+        -24.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -3,
+      "k": 0,
+      "center_ue_cm": [
+        11.999999999999996,
+        -18.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 2,
+      "j": -3,
+      "k": 1,
+      "center_ue_cm": [
+        11.999999999999996,
+        -18.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -3,
+      "k": 3,
+      "center_ue_cm": [
+        11.999999999999996,
+        -18.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -3,
+      "k": 5,
+      "center_ue_cm": [
+        11.999999999999996,
+        -18.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -3,
+      "k": 6,
+      "center_ue_cm": [
+        11.999999999999996,
+        -18.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -2,
+      "k": 0,
+      "center_ue_cm": [
+        11.999999999999996,
+        -12.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 2,
+      "j": -2,
+      "k": 2,
+      "center_ue_cm": [
+        11.999999999999996,
+        -12.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -2,
+      "k": 4,
+      "center_ue_cm": [
+        11.999999999999996,
+        -12.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -2,
+      "k": 6,
+      "center_ue_cm": [
+        11.999999999999996,
+        -12.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -2,
+      "k": 7,
+      "center_ue_cm": [
+        11.999999999999996,
+        -12.000000000000004,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -1,
+      "k": 0,
+      "center_ue_cm": [
+        11.999999999999996,
+        -6.000000000000003,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 2,
+      "j": -1,
+      "k": 1,
+      "center_ue_cm": [
+        11.999999999999996,
+        -6.000000000000003,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -1,
+      "k": 3,
+      "center_ue_cm": [
+        11.999999999999996,
+        -6.000000000000003,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -1,
+      "k": 5,
+      "center_ue_cm": [
+        11.999999999999996,
+        -6.000000000000003,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": -1,
+      "k": 7,
+      "center_ue_cm": [
+        11.999999999999996,
+        -6.000000000000003,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "k": 0,
+      "center_ue_cm": [
+        11.999999999999996,
+        -2.6645352591003757e-15,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "k": 2,
+      "center_ue_cm": [
+        11.999999999999996,
+        -2.6645352591003757e-15,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "k": 4,
+      "center_ue_cm": [
+        11.999999999999996,
+        -2.6645352591003757e-15,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "k": 6,
+      "center_ue_cm": [
+        11.999999999999996,
+        -2.6645352591003757e-15,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "k": 7,
+      "center_ue_cm": [
+        11.999999999999996,
+        -2.6645352591003757e-15,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "k": 0,
+      "center_ue_cm": [
+        11.999999999999996,
+        5.999999999999997,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "k": 1,
+      "center_ue_cm": [
+        11.999999999999996,
+        5.999999999999997,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "k": 3,
+      "center_ue_cm": [
+        11.999999999999996,
+        5.999999999999997,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "k": 5,
+      "center_ue_cm": [
+        11.999999999999996,
+        5.999999999999997,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "k": 7,
+      "center_ue_cm": [
+        11.999999999999996,
+        5.999999999999997,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "k": 0,
+      "center_ue_cm": [
+        11.999999999999996,
+        11.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "k": 2,
+      "center_ue_cm": [
+        11.999999999999996,
+        11.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "k": 4,
+      "center_ue_cm": [
+        11.999999999999996,
+        11.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "k": 6,
+      "center_ue_cm": [
+        11.999999999999996,
+        11.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "k": 7,
+      "center_ue_cm": [
+        11.999999999999996,
+        11.999999999999996,
+        45.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "k": 0,
+      "center_ue_cm": [
+        11.999999999999996,
+        17.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "k": 1,
+      "center_ue_cm": [
+        11.999999999999996,
+        17.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "k": 3,
+      "center_ue_cm": [
+        11.999999999999996,
+        17.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "k": 5,
+      "center_ue_cm": [
+        11.999999999999996,
+        17.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "k": 6,
+      "center_ue_cm": [
+        11.999999999999996,
+        17.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "k": 0,
+      "center_ue_cm": [
+        11.999999999999996,
+        23.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "k": 2,
+      "center_ue_cm": [
+        11.999999999999996,
+        23.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "k": 4,
+      "center_ue_cm": [
+        11.999999999999996,
+        23.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "k": 5,
+      "center_ue_cm": [
+        11.999999999999996,
+        23.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "k": 0,
+      "center_ue_cm": [
+        11.999999999999996,
+        29.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "k": 1,
+      "center_ue_cm": [
+        11.999999999999996,
+        29.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "k": 2,
+      "center_ue_cm": [
+        11.999999999999996,
+        29.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "k": 3,
+      "center_ue_cm": [
+        11.999999999999996,
+        29.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "k": 4,
+      "center_ue_cm": [
+        11.999999999999996,
+        29.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -5,
+      "k": 0,
+      "center_ue_cm": [
+        17.999999999999996,
+        -30.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 3,
+      "j": -5,
+      "k": 1,
+      "center_ue_cm": [
+        17.999999999999996,
+        -30.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -5,
+      "k": 2,
+      "center_ue_cm": [
+        17.999999999999996,
+        -30.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -5,
+      "k": 3,
+      "center_ue_cm": [
+        17.999999999999996,
+        -30.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -5,
+      "k": 4,
+      "center_ue_cm": [
+        17.999999999999996,
+        -30.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -4,
+      "k": 0,
+      "center_ue_cm": [
+        17.999999999999996,
+        -24.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 3,
+      "j": -4,
+      "k": 1,
+      "center_ue_cm": [
+        17.999999999999996,
+        -24.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -4,
+      "k": 3,
+      "center_ue_cm": [
+        17.999999999999996,
+        -24.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -4,
+      "k": 5,
+      "center_ue_cm": [
+        17.999999999999996,
+        -24.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -3,
+      "k": 0,
+      "center_ue_cm": [
+        17.999999999999996,
+        -18.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 3,
+      "j": -3,
+      "k": 2,
+      "center_ue_cm": [
+        17.999999999999996,
+        -18.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -3,
+      "k": 4,
+      "center_ue_cm": [
+        17.999999999999996,
+        -18.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -3,
+      "k": 6,
+      "center_ue_cm": [
+        17.999999999999996,
+        -18.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -2,
+      "k": 0,
+      "center_ue_cm": [
+        17.999999999999996,
+        -12.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 3,
+      "j": -2,
+      "k": 1,
+      "center_ue_cm": [
+        17.999999999999996,
+        -12.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -2,
+      "k": 3,
+      "center_ue_cm": [
+        17.999999999999996,
+        -12.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -2,
+      "k": 5,
+      "center_ue_cm": [
+        17.999999999999996,
+        -12.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -2,
+      "k": 6,
+      "center_ue_cm": [
+        17.999999999999996,
+        -12.000000000000004,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -1,
+      "k": 0,
+      "center_ue_cm": [
+        17.999999999999996,
+        -6.000000000000003,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 3,
+      "j": -1,
+      "k": 2,
+      "center_ue_cm": [
+        17.999999999999996,
+        -6.000000000000003,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -1,
+      "k": 4,
+      "center_ue_cm": [
+        17.999999999999996,
+        -6.000000000000003,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": -1,
+      "k": 6,
+      "center_ue_cm": [
+        17.999999999999996,
+        -6.000000000000003,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "k": 0,
+      "center_ue_cm": [
+        17.999999999999996,
+        -2.6645352591003757e-15,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "k": 1,
+      "center_ue_cm": [
+        17.999999999999996,
+        -2.6645352591003757e-15,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "k": 3,
+      "center_ue_cm": [
+        17.999999999999996,
+        -2.6645352591003757e-15,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "k": 5,
+      "center_ue_cm": [
+        17.999999999999996,
+        -2.6645352591003757e-15,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "k": 6,
+      "center_ue_cm": [
+        17.999999999999996,
+        -2.6645352591003757e-15,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 1,
+      "k": 0,
+      "center_ue_cm": [
+        17.999999999999996,
+        5.999999999999997,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 3,
+      "j": 1,
+      "k": 2,
+      "center_ue_cm": [
+        17.999999999999996,
+        5.999999999999997,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 1,
+      "k": 4,
+      "center_ue_cm": [
+        17.999999999999996,
+        5.999999999999997,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 1,
+      "k": 6,
+      "center_ue_cm": [
+        17.999999999999996,
+        5.999999999999997,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "k": 0,
+      "center_ue_cm": [
+        17.999999999999996,
+        11.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "k": 1,
+      "center_ue_cm": [
+        17.999999999999996,
+        11.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "k": 3,
+      "center_ue_cm": [
+        17.999999999999996,
+        11.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "k": 5,
+      "center_ue_cm": [
+        17.999999999999996,
+        11.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "k": 6,
+      "center_ue_cm": [
+        17.999999999999996,
+        11.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "k": 0,
+      "center_ue_cm": [
+        17.999999999999996,
+        17.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "k": 2,
+      "center_ue_cm": [
+        17.999999999999996,
+        17.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "k": 4,
+      "center_ue_cm": [
+        17.999999999999996,
+        17.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "k": 6,
+      "center_ue_cm": [
+        17.999999999999996,
+        17.999999999999996,
+        39.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "k": 0,
+      "center_ue_cm": [
+        17.999999999999996,
+        23.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "k": 1,
+      "center_ue_cm": [
+        17.999999999999996,
+        23.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "k": 3,
+      "center_ue_cm": [
+        17.999999999999996,
+        23.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "k": 5,
+      "center_ue_cm": [
+        17.999999999999996,
+        23.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "k": 0,
+      "center_ue_cm": [
+        17.999999999999996,
+        29.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "k": 1,
+      "center_ue_cm": [
+        17.999999999999996,
+        29.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "k": 2,
+      "center_ue_cm": [
+        17.999999999999996,
+        29.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "k": 3,
+      "center_ue_cm": [
+        17.999999999999996,
+        29.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "k": 4,
+      "center_ue_cm": [
+        17.999999999999996,
+        29.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -5,
+      "k": 0,
+      "center_ue_cm": [
+        23.999999999999996,
+        -30.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 4,
+      "j": -5,
+      "k": 1,
+      "center_ue_cm": [
+        23.999999999999996,
+        -30.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -5,
+      "k": 2,
+      "center_ue_cm": [
+        23.999999999999996,
+        -30.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -5,
+      "k": 3,
+      "center_ue_cm": [
+        23.999999999999996,
+        -30.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -5,
+      "k": 4,
+      "center_ue_cm": [
+        23.999999999999996,
+        -30.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -4,
+      "k": 0,
+      "center_ue_cm": [
+        23.999999999999996,
+        -24.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 4,
+      "j": -4,
+      "k": 2,
+      "center_ue_cm": [
+        23.999999999999996,
+        -24.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -4,
+      "k": 4,
+      "center_ue_cm": [
+        23.999999999999996,
+        -24.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -4,
+      "k": 5,
+      "center_ue_cm": [
+        23.999999999999996,
+        -24.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -3,
+      "k": 0,
+      "center_ue_cm": [
+        23.999999999999996,
+        -18.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 4,
+      "j": -3,
+      "k": 1,
+      "center_ue_cm": [
+        23.999999999999996,
+        -18.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -3,
+      "k": 3,
+      "center_ue_cm": [
+        23.999999999999996,
+        -18.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -3,
+      "k": 5,
+      "center_ue_cm": [
+        23.999999999999996,
+        -18.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -2,
+      "k": 0,
+      "center_ue_cm": [
+        23.999999999999996,
+        -12.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 4,
+      "j": -2,
+      "k": 2,
+      "center_ue_cm": [
+        23.999999999999996,
+        -12.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -2,
+      "k": 4,
+      "center_ue_cm": [
+        23.999999999999996,
+        -12.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -2,
+      "k": 5,
+      "center_ue_cm": [
+        23.999999999999996,
+        -12.000000000000004,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -1,
+      "k": 0,
+      "center_ue_cm": [
+        23.999999999999996,
+        -6.000000000000003,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 4,
+      "j": -1,
+      "k": 1,
+      "center_ue_cm": [
+        23.999999999999996,
+        -6.000000000000003,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -1,
+      "k": 3,
+      "center_ue_cm": [
+        23.999999999999996,
+        -6.000000000000003,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": -1,
+      "k": 5,
+      "center_ue_cm": [
+        23.999999999999996,
+        -6.000000000000003,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "k": 0,
+      "center_ue_cm": [
+        23.999999999999996,
+        -2.6645352591003757e-15,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "k": 2,
+      "center_ue_cm": [
+        23.999999999999996,
+        -2.6645352591003757e-15,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "k": 4,
+      "center_ue_cm": [
+        23.999999999999996,
+        -2.6645352591003757e-15,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "k": 5,
+      "center_ue_cm": [
+        23.999999999999996,
+        -2.6645352591003757e-15,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 1,
+      "k": 0,
+      "center_ue_cm": [
+        23.999999999999996,
+        5.999999999999997,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 4,
+      "j": 1,
+      "k": 1,
+      "center_ue_cm": [
+        23.999999999999996,
+        5.999999999999997,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 1,
+      "k": 3,
+      "center_ue_cm": [
+        23.999999999999996,
+        5.999999999999997,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 1,
+      "k": 5,
+      "center_ue_cm": [
+        23.999999999999996,
+        5.999999999999997,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 2,
+      "k": 0,
+      "center_ue_cm": [
+        23.999999999999996,
+        11.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 4,
+      "j": 2,
+      "k": 2,
+      "center_ue_cm": [
+        23.999999999999996,
+        11.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 2,
+      "k": 4,
+      "center_ue_cm": [
+        23.999999999999996,
+        11.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 2,
+      "k": 5,
+      "center_ue_cm": [
+        23.999999999999996,
+        11.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "k": 0,
+      "center_ue_cm": [
+        23.999999999999996,
+        17.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "k": 1,
+      "center_ue_cm": [
+        23.999999999999996,
+        17.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "k": 3,
+      "center_ue_cm": [
+        23.999999999999996,
+        17.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "k": 5,
+      "center_ue_cm": [
+        23.999999999999996,
+        17.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "k": 0,
+      "center_ue_cm": [
+        23.999999999999996,
+        23.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "k": 2,
+      "center_ue_cm": [
+        23.999999999999996,
+        23.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "k": 4,
+      "center_ue_cm": [
+        23.999999999999996,
+        23.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "k": 5,
+      "center_ue_cm": [
+        23.999999999999996,
+        23.999999999999996,
+        33.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "k": 0,
+      "center_ue_cm": [
+        23.999999999999996,
+        29.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "k": 1,
+      "center_ue_cm": [
+        23.999999999999996,
+        29.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "k": 2,
+      "center_ue_cm": [
+        23.999999999999996,
+        29.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "k": 3,
+      "center_ue_cm": [
+        23.999999999999996,
+        29.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "k": 4,
+      "center_ue_cm": [
+        23.999999999999996,
+        29.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -5,
+      "k": 0,
+      "center_ue_cm": [
+        29.999999999999996,
+        -30.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": -5,
+      "k": 1,
+      "center_ue_cm": [
+        29.999999999999996,
+        -30.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": -5,
+      "k": 2,
+      "center_ue_cm": [
+        29.999999999999996,
+        -30.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -5,
+      "k": 3,
+      "center_ue_cm": [
+        29.999999999999996,
+        -30.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -5,
+      "k": 4,
+      "center_ue_cm": [
+        29.999999999999996,
+        -30.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -4,
+      "k": 0,
+      "center_ue_cm": [
+        29.999999999999996,
+        -24.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": -4,
+      "k": 1,
+      "center_ue_cm": [
+        29.999999999999996,
+        -24.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -4,
+      "k": 2,
+      "center_ue_cm": [
+        29.999999999999996,
+        -24.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -4,
+      "k": 3,
+      "center_ue_cm": [
+        29.999999999999996,
+        -24.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -4,
+      "k": 4,
+      "center_ue_cm": [
+        29.999999999999996,
+        -24.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -3,
+      "k": 0,
+      "center_ue_cm": [
+        29.999999999999996,
+        -18.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": -3,
+      "k": 1,
+      "center_ue_cm": [
+        29.999999999999996,
+        -18.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -3,
+      "k": 2,
+      "center_ue_cm": [
+        29.999999999999996,
+        -18.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -3,
+      "k": 3,
+      "center_ue_cm": [
+        29.999999999999996,
+        -18.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -3,
+      "k": 4,
+      "center_ue_cm": [
+        29.999999999999996,
+        -18.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -2,
+      "k": 0,
+      "center_ue_cm": [
+        29.999999999999996,
+        -12.000000000000004,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": -2,
+      "k": 1,
+      "center_ue_cm": [
+        29.999999999999996,
+        -12.000000000000004,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -2,
+      "k": 2,
+      "center_ue_cm": [
+        29.999999999999996,
+        -12.000000000000004,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -2,
+      "k": 3,
+      "center_ue_cm": [
+        29.999999999999996,
+        -12.000000000000004,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -2,
+      "k": 4,
+      "center_ue_cm": [
+        29.999999999999996,
+        -12.000000000000004,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -1,
+      "k": 0,
+      "center_ue_cm": [
+        29.999999999999996,
+        -6.000000000000003,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": -1,
+      "k": 1,
+      "center_ue_cm": [
+        29.999999999999996,
+        -6.000000000000003,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -1,
+      "k": 2,
+      "center_ue_cm": [
+        29.999999999999996,
+        -6.000000000000003,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -1,
+      "k": 3,
+      "center_ue_cm": [
+        29.999999999999996,
+        -6.000000000000003,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": -1,
+      "k": 4,
+      "center_ue_cm": [
+        29.999999999999996,
+        -6.000000000000003,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 0,
+      "k": 0,
+      "center_ue_cm": [
+        29.999999999999996,
+        -2.6645352591003757e-15,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": 0,
+      "k": 1,
+      "center_ue_cm": [
+        29.999999999999996,
+        -2.6645352591003757e-15,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 0,
+      "k": 2,
+      "center_ue_cm": [
+        29.999999999999996,
+        -2.6645352591003757e-15,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 0,
+      "k": 3,
+      "center_ue_cm": [
+        29.999999999999996,
+        -2.6645352591003757e-15,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 0,
+      "k": 4,
+      "center_ue_cm": [
+        29.999999999999996,
+        -2.6645352591003757e-15,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 1,
+      "k": 0,
+      "center_ue_cm": [
+        29.999999999999996,
+        5.999999999999997,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": 1,
+      "k": 1,
+      "center_ue_cm": [
+        29.999999999999996,
+        5.999999999999997,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 1,
+      "k": 2,
+      "center_ue_cm": [
+        29.999999999999996,
+        5.999999999999997,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 1,
+      "k": 3,
+      "center_ue_cm": [
+        29.999999999999996,
+        5.999999999999997,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 1,
+      "k": 4,
+      "center_ue_cm": [
+        29.999999999999996,
+        5.999999999999997,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 2,
+      "k": 0,
+      "center_ue_cm": [
+        29.999999999999996,
+        11.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": 2,
+      "k": 1,
+      "center_ue_cm": [
+        29.999999999999996,
+        11.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 2,
+      "k": 2,
+      "center_ue_cm": [
+        29.999999999999996,
+        11.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 2,
+      "k": 3,
+      "center_ue_cm": [
+        29.999999999999996,
+        11.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 2,
+      "k": 4,
+      "center_ue_cm": [
+        29.999999999999996,
+        11.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 3,
+      "k": 0,
+      "center_ue_cm": [
+        29.999999999999996,
+        17.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": 3,
+      "k": 1,
+      "center_ue_cm": [
+        29.999999999999996,
+        17.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 3,
+      "k": 2,
+      "center_ue_cm": [
+        29.999999999999996,
+        17.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 3,
+      "k": 3,
+      "center_ue_cm": [
+        29.999999999999996,
+        17.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 3,
+      "k": 4,
+      "center_ue_cm": [
+        29.999999999999996,
+        17.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 4,
+      "k": 0,
+      "center_ue_cm": [
+        29.999999999999996,
+        23.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": 4,
+      "k": 1,
+      "center_ue_cm": [
+        29.999999999999996,
+        23.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 4,
+      "k": 2,
+      "center_ue_cm": [
+        29.999999999999996,
+        23.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 4,
+      "k": 3,
+      "center_ue_cm": [
+        29.999999999999996,
+        23.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 4,
+      "k": 4,
+      "center_ue_cm": [
+        29.999999999999996,
+        23.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 5,
+      "k": 0,
+      "center_ue_cm": [
+        29.999999999999996,
+        29.999999999999996,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": 5,
+      "k": 1,
+      "center_ue_cm": [
+        29.999999999999996,
+        29.999999999999996,
+        9.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 5,
+      "j": 5,
+      "k": 2,
+      "center_ue_cm": [
+        29.999999999999996,
+        29.999999999999996,
+        15.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 5,
+      "k": 3,
+      "center_ue_cm": [
+        29.999999999999996,
+        29.999999999999996,
+        21.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 5,
+      "j": 5,
+      "k": 4,
+      "center_ue_cm": [
+        29.999999999999996,
+        29.999999999999996,
+        27.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 6,
+      "j": -6,
+      "k": 0,
+      "center_ue_cm": [
+        36.0,
+        -36.0,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 6,
+      "j": -6,
+      "k": 1,
+      "center_ue_cm": [
+        36.0,
+        -36.0,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    },
+    {
+      "i": 6,
+      "j": 6,
+      "k": 0,
+      "center_ue_cm": [
+        36.0,
+        36.0,
+        3.0
+      ],
+      "color_role": "VoxelDark",
+      "material": "M_VoxelDark"
+    },
+    {
+      "i": 6,
+      "j": 6,
+      "k": 1,
+      "center_ue_cm": [
+        36.0,
+        36.0,
+        9.0
+      ],
+      "color_role": "VoxelBody",
+      "material": "M_VoxelBody"
+    }
+  ]
+}

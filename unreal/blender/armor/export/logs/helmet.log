@@ -1,0 +1,21 @@
+﻿FBX version: 7300
+  head reference radius 7.10 cm
+  visor: 528 tris
+helmet tris: 6580 (budget 8000) OK
+head bone origin (world, m): (-0.0000, -0.0120, 1.6461)
+
+FBX export starting... 'C:\\UnrealProjects\\poly99\\unreal\\blender\\armor\\export\\SM_Helmet_A.fbx'
+export finished in 0.0165 sec.
+  exported SM_Helmet_A.fbx                6580 tris  1 parts
+FBX version: 7300
+FBX version: 7400
+
+FBX export starting... 'C:\\UnrealProjects\\poly99\\unreal\\blender\\armor\\export\\SKM_Helmet_A.fbx'
+(bpy.data.armatures['root'], 'POSE')
+export finished in 0.1560 sec.
+  exported SKM_Helmet_A.fbx               6580 tris  1 parts
+DONE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+

@@ -1,0 +1,340 @@
+﻿00:08.687  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\rest_front.png'
+00:08.797  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\rest_side.png'
+00:08.922  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\rest_back.png'
+00:09.047  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\rest_34top.png'
+00:09.156  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\rest_gameplay.png'
+00:09.609  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\arms_forward_front.png'
+00:09.703  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\arms_forward_side.png'
+00:09.812  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\arms_forward_back.png'
+00:09.922  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\arms_forward_34top.png'
+00:10.031  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\arms_forward_gameplay.png'
+00:10.531  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\deep_lunge_front.png'
+00:10.640  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\deep_lunge_side.png'
+00:10.750  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\deep_lunge_back.png'
+00:10.859  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\deep_lunge_34top.png'
+00:10.969  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\deep_lunge_gameplay.png'
+00:11.437  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\twist_aim_front.png'
+00:11.547  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\twist_aim_side.png'
+00:11.672  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\twist_aim_back.png'
+00:11.781  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\twist_aim_34top.png'
+00:11.890  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\twist_aim_gameplay.png'
+00:12.375  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\walk_stride_front.png'
+00:12.484  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\walk_stride_side.png'
+00:12.609  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\walk_stride_back.png'
+00:12.719  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\walk_stride_34top.png'
+00:12.828  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\walk_stride_gameplay.png'
+00:13.312  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\walk_stride_b_front.png'
+00:13.437  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\walk_stride_b_side.png'
+00:13.547  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\walk_stride_b_back.png'
+00:13.672  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\walk_stride_b_34top.png'
+00:13.781  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\walk_stride_b_gameplay.png'
+00:14.234  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\legs_apart_front.png'
+00:14.344  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\legs_apart_side.png'
+00:14.453  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\legs_apart_back.png'
+00:14.562  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\legs_apart_34top.png'
+00:14.672  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\legs_apart_gameplay.png'
+00:15.156  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\ue_locomotion_front.png'
+00:15.265  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\ue_locomotion_side.png'
+00:15.375  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\ue_locomotion_back.png'
+00:15.484  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\ue_locomotion_34top.png'
+00:15.594  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\ue_locomotion_gameplay.png'
+00:16.062  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\relaxed_hand_front.png'
+00:16.172  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\relaxed_hand_side.png'
+00:16.297  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\relaxed_hand_back.png'
+00:16.422  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\relaxed_hand_34top.png'
+00:16.531  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\relaxed_hand_gameplay.png'
+00:17.015  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\fist_front.png'
+00:17.125  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\fist_side.png'
+00:17.234  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\fist_back.png'
+00:17.344  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\fist_34top.png'
+00:17.453  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\fist_gameplay.png'
+
+=== 0. UE unit convention (raw FBX, no importer) ===
+SKM_MHC_Hero_BodyMesh.fbx    UnitScaleFactor=1.0  meshes=1 verts=8568
+   raw bbox  x[-57.0503,57.0803] y[-29.0136,12.0257] z[-0.0405,150.0499]
+   raw size  114.1306 x 41.0394 x 150.0903   z span 150.0903
+file                         usf       raw z cm    node sc   UE size (cm)
+SKM_Armor_Chest.fbx          UnitScaleFactor=1.0  meshes=1 verts=4929
+   raw bbox  x[-19.7396,19.7686] y[-17.4769,14.5525] z[83.8228,149.2002]
+   raw size  39.5081 x 32.0294 x 65.3774   z span 65.3774
+SKM_Armor_Chest.fbx          1.0       65.377      unit      39.5 x 32.0 x 65.4
+SKM_Armor_Shoulders.fbx      UnitScaleFactor=1.0  meshes=1 verts=2104
+   raw bbox  x[-31.1481,31.1016] y[-11.4711,14.4655] z[131.5931,152.6441]
+   raw size  62.2498 x 25.9366 x 21.0510   z span 21.0510
+SKM_Armor_Shoulders.fbx      1.0       21.051      unit      62.2 x 25.9 x 21.1
+SKM_Armor_Arms.fbx           UnitScaleFactor=1.0  meshes=1 verts=4305
+   raw bbox  x[-53.5983,53.6286] y[-18.8312,11.0487] z[101.1853,141.1648]
+   raw size  107.2269 x 29.8799 x 39.9795   z span 39.9795
+SKM_Armor_Arms.fbx           1.0       39.980      unit      107.2 x 29.9 x 40.0
+SKM_Armor_Hands.fbx          UnitScaleFactor=1.0  meshes=1 verts=3314
+   raw bbox  x[-58.5536,58.5292] y[-30.5649,-11.8066] z[88.1507,107.7305]
+   raw size  117.0829 x 18.7583 x 19.5798   z span 19.5798
+SKM_Armor_Hands.fbx          1.0       19.580      unit      117.1 x 18.8 x 19.6
+SKM_Armor_Legs.fbx           UnitScaleFactor=1.0  meshes=1 verts=6448
+   raw bbox  x[-21.6438,21.6675] y[-16.4510,13.6025] z[6.2239,101.9967]
+   raw size  43.3113 x 30.0535 x 95.7728   z span 95.7728
+SKM_Armor_Legs.fbx           1.0       95.773      unit      43.3 x 30.1 x 95.8
+SKM_Armor_Feet.fbx           UnitScaleFactor=1.0  meshes=1 verts=2508
+   raw bbox  x[-23.7054,23.6725] y[-23.6058,6.4544] z[-2.5910,14.1962]
+   raw size  47.3779 x 30.0601 x 16.7872   z span 16.7872
+SKM_Armor_Feet.fbx           1.0       16.787      unit      47.4 x 30.1 x 16.8
+SKM_Armor_Back.fbx           UnitScaleFactor=1.0  meshes=1 verts=472
+   raw bbox  x[-11.6000,11.6000] y[13.4000,22.0500] z[105.9234,150.5000]
+   raw size  23.2000 x 8.6500 x 44.5766   z span 44.5766
+SKM_Armor_Back.fbx           1.0       44.577      unit      23.2 x 8.7 x 44.6
+SM_Helmet_A.fbx              UnitScaleFactor=1.0  meshes=1 verts=4187
+   raw bbox  x[-18.8189,17.7842] y[-14.3964,16.6580] z[-16.7979,16.8207]
+   raw size  36.6031 x 31.0544 x 33.6186   z span 33.6186
+SM_Helmet_A.fbx              1.0       33.619      unit      36.6 x 31.1 x 33.6
+SKM_Helmet_A.fbx             UnitScaleFactor=1.0  meshes=1 verts=4187
+   raw bbox  x[-18.8189,17.7842] y[-14.3964,16.6580] z[-16.7979,16.8207]
+   raw size  36.6031 x 31.0544 x 33.6186   z span 33.6186
+SKM_Helmet_A.fbx             1.0       33.619      unit      36.6 x 31.1 x 33.6
+  reference body z span 150.09 cm; expected (145.0, 155.0)
+  all exports: UnitScaleFactor 1.0, unit node scales, cm coordinates
+FBX version: 7300
+
+=== 1. exported FBX round trip ===
+file                          tris  bones meshes  rest_dev status
+FBX version: 7400
+SKM_Armor_Chest.fbx           8523    341      1   0.00000 OK
+FBX version: 7400
+SKM_Armor_Shoulders.fbx       3614    341      1   0.00000 OK
+FBX version: 7400
+SKM_Armor_Arms.fbx            7620    341      1   0.00000 OK
+FBX version: 7400
+SKM_Armor_Hands.fbx           5714    341      1   0.00000 OK
+FBX version: 7400
+SKM_Armor_Legs.fbx           11303    341      1   0.00000 OK
+FBX version: 7400
+SKM_Armor_Feet.fbx            3960    341      1   0.00000 OK
+FBX version: 7400
+SKM_Armor_Back.fbx             896    341      1   0.00000 OK
+FBX version: 7400
+SM_Helmet_A.fbx               6580      0      1   0.00000 static mesh (no skeleton)
+FBX version: 7400
+SKM_Helmet_A.fbx              6580    341      1   0.00000 OK
+FBX version: 7300
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+
+loaded 7 armor meshes
+  combined world bbox z[-0.03,1.53] x[-0.59,0.59] y[-0.31,0.22]
+    SKM_Armor_Chest            z[0.84,1.49] x[-0.20,0.20] y[-0.17,0.15]
+    SKM_Armor_Shoulders        z[1.32,1.53] x[-0.31,0.31] y[-0.11,0.14]
+    SKM_Armor_Arms             z[1.01,1.41] x[-0.54,0.54] y[-0.19,0.11]
+    SKM_Armor_Hands            z[0.88,1.08] x[-0.59,0.59] y[-0.31,-0.12]
+    SKM_Armor_Legs             z[0.06,1.02] x[-0.22,0.22] y[-0.16,0.14]
+    SKM_Armor_Feet             z[-0.03,0.14] x[-0.24,0.24] y[-0.24,0.06]
+    SKM_Armor_Back             z[1.06,1.50] x[-0.12,0.12] y[0.13,0.22]
+  chain upperarm_fwd_l     pelvis <- spine_01 <- spine_02 <- spine_03 <- spine_04 <- spine_05 <- clavicle_l <- upperarm_l <- upperarm_correctiveRoot_l <- upperarm_fwd_l
+  chain upperarm_l         pelvis <- spine_01 <- spine_02 <- spine_03 <- spine_04 <- spine_05 <- clavicle_l <- upperarm_l
+  chain lowerarm_l         pelvis <- spine_01 <- spine_02 <- spine_03 <- spine_04 <- spine_05 <- clavicle_l <- upperarm_l <- lowerarm_l
+  chain hand_l             pelvis <- spine_01 <- spine_02 <- spine_03 <- spine_04 <- spine_05 <- clavicle_l <- upperarm_l <- lowerarm_l <- hand_l
+  chain thigh_l            pelvis <- thigh_l
+  chain calf_l             pelvis <- thigh_l <- calf_l
+  chain foot_l             pelvis <- thigh_l <- calf_l <- foot_l
+  chain spine_03           pelvis <- spine_01 <- spine_02 <- spine_03
+
+=== facing ===
+  character faces -Y (derived from toe direction, front sign -1)
+  body verts by side: L=4304 R=4254 midline=10
+
+=== 2/3. poses ===
+pose            sign_min    miss%   gap3cm    poke%   per side: worst signed mm / miss% / coplanar%
+rest               0.00mm    0.00%    0.05%    4.72%   L   +0.00mm  0.00%  5.85%  R   +0.00mm  0.00%  5.32%
+        max mesh displacement vs rest: 0.0 cm
+        worst height bands (m): 0.0-0.1m 4/1822
+arms_forward      -7.83mm    0.08%    0.13%    4.95%   L   -4.09mm  0.12%  6.43%  R   -7.83mm  0.05%  5.85%
+        max mesh displacement vs rest: 92.8 cm
+        worst height bands (m): 1.3-1.4m 7/852, 0.0-0.1m 4/1822
+deep_lunge        -9.93mm    0.27%    0.37%    5.01%   L   -9.93mm  0.31%  7.00%  R   -7.65mm  0.24%  6.57%
+        max mesh displacement vs rest: 63.8 cm
+        worst height bands (m): 0.8-0.9m 14/1850, 0.3-0.4m 4/208, 0.1-0.2m 4/709, 0.9-1.0m 4/1728, 1.3-1.4m 3/475, 1.0-1.1m 1/614
+twist_aim         -5.69mm    0.05%    0.10%    5.40%   L   -1.89mm  0.07%  6.71%  R   -5.69mm  0.02%  6.30%
+        max mesh displacement vs rest: 148.3 cm
+        worst height bands (m): 0.0-0.1m 4/1822, 1.0-1.1m 2/194, 1.3-1.4m 2/2568
+walk_stride       -6.26mm    0.18%    0.24%    5.04%   L   -6.26mm  0.26%  6.14%  R   -4.98mm  0.10%  5.70%
+        max mesh displacement vs rest: 30.4 cm
+        worst height bands (m): 0.8-0.9m 15/426, 1.3-1.4m 3/556, 0.0-0.1m 2/1672
+walk_stride_b     -4.77mm    0.12%    0.20%    5.06%   L   -4.77mm  0.07%  6.19%  R   -3.97mm  0.17%  5.56%
+        max mesh displacement vs rest: 30.4 cm
+        worst height bands (m): 0.8-0.9m 10/427, 0.0-0.1m 4/1672, 1.3-1.4m 3/552
+legs_apart        -4.65mm    0.07%    0.12%    4.67%   L   -3.72mm  0.12%  5.95%  R   -4.65mm  0.02%  5.41%
+        max mesh displacement vs rest: 16.6 cm
+        worst height bands (m): 0.8-0.9m 6/293, 0.0-0.1m 4/1746
+ue_locomotion    -11.48mm    0.77%    0.85%    5.67%   L  -11.48mm  0.24%  6.90%  R   -8.68mm  1.30%  7.07%
+        max mesh displacement vs rest: 142.2 cm
+        worst height bands (m): 0.8-0.9m 25/281, 0.9-1.0m 19/971, 1.3-1.4m 6/961, 0.1-0.2m 6/977, 0.7-0.8m 6/161, 1.4-1.5m 3/429
+relaxed_hand      -6.56mm    0.12%    0.17%    6.26%   L   -6.56mm  0.14%  8.88%  R   -5.99mm  0.10%  8.81%
+        max mesh displacement vs rest: 2.2 cm
+        worst height bands (m): 0.9-1.0m 7/2110, 0.0-0.1m 4/1822, 1.0-1.1m 3/1347
+fist              -6.74mm    0.53%    0.60%    6.22%   L   -6.74mm  0.62% 10.90%  R   -5.73mm  0.43% 10.47%
+        max mesh displacement vs rest: 3.3 cm
+        worst height bands (m): 0.9-1.0m 39/2066, 1.0-1.1m 7/1391, 0.0-0.1m 4/1822
+
+=== 3c. pose sweep (hip/thigh gate) ===00:30.156  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_cam28_23m_body.png'
+00:30.328  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_cam28_23m_armor.png'
+00:31.359  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_cam28_33m_body.png'
+00:31.500  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_cam28_33m_armor.png'
+00:32.656  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_cam28_43m_body.png'
+00:32.797  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_cam28_43m_armor.png'
+00:34.172  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_top_23m_body.png'
+00:34.312  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_top_23m_armor.png'
+00:35.890  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_top_33m_body.png'
+00:36.031  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_top_33m_armor.png'
+00:37.750  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_top_43m_body.png'
+00:37.906  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_top_43m_armor.png'
+00:39.625  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_side_23m_body.png'
+00:39.781  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_side_23m_armor.png'
+00:41.656  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_side_33m_body.png'
+00:41.812  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_side_33m_armor.png'
+00:43.547  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_side_43m_body.png'
+00:43.687  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\rest_side_43m_armor.png'
+00:45.422  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_cam28_23m_body.png'
+00:45.594  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_cam28_23m_armor.png'
+00:47.359  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_cam28_33m_body.png'
+00:47.500  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_cam28_33m_armor.png'
+00:49.297  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_cam28_43m_body.png'
+00:49.484  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_cam28_43m_armor.png'
+00:51.328  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_top_23m_body.png'
+00:51.515  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_top_23m_armor.png'
+00:53.265  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_top_33m_body.png'
+00:53.437  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_top_33m_armor.png'
+00:55.187  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_top_43m_body.png'
+00:55.344  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_top_43m_armor.png'
+00:57.078  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_side_23m_body.png'
+00:57.250  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_side_23m_armor.png'
+00:59.031  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_side_33m_body.png'
+00:59.172  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_side_33m_armor.png'
+01:00.953  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_side_43m_body.png'
+01:01.094  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\walk_stride_side_43m_armor.png'
+01:03.156  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_cam28_23m_body.png'
+01:03.328  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_cam28_23m_armor.png'
+01:05.250  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_cam28_33m_body.png'
+01:05.406  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_cam28_33m_armor.png'
+
+    thigh_l_pitch      -20.0  L miss  0.26% hip/thigh   +0.00mm   R miss  1.28% hip/thigh   -7.59mm
+    thigh_l_pitch      -15.0  L miss  0.24% hip/thigh   +0.34mm   R miss  1.30% hip/thigh   -7.66mm
+    thigh_l_pitch      -10.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.79mm
+    thigh_l_pitch       -5.0  L miss  0.24% hip/thigh   +0.32mm   R miss  1.37% hip/thigh   -7.98mm
+    thigh_l_pitch       +0.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.37% hip/thigh   -8.22mm
+    thigh_l_pitch       +5.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.40% hip/thigh   -8.49mm
+    thigh_l_pitch      +10.0  L miss  0.24% hip/thigh   +0.66mm   R miss  1.37% hip/thigh   -8.77mm
+    thigh_l_pitch      +15.0  L miss  0.24% hip/thigh   +0.42mm   R miss  1.32% hip/thigh   -9.05mm
+    thigh_l_pitch      +20.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.32% hip/thigh   -9.35mm
+    thigh_l_pitch      +25.0  L miss  0.26% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -9.65mm
+    thigh_l_pitch      +30.0  L miss  0.26% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -9.95mm
+    thigh_l_pitch      +35.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.32% hip/thigh  -10.25mm
+    thigh_l_pitch      +40.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh  -10.55mm
+    thigh_l_pitch      +45.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh  -10.84mm
+    thigh_r_pitch      -20.0  L miss  0.33% hip/thigh   +0.00mm   R miss  0.84% hip/thigh   +0.00mm
+    thigh_r_pitch      -15.0  L miss  0.33% hip/thigh   +0.00mm   R miss  0.89% hip/thigh   +0.41mm
+    thigh_r_pitch      -10.0  L miss  0.38% hip/thigh   -0.37mm   R miss  0.79% hip/thigh   +2.51mm
+    thigh_r_pitch       -5.0  L miss  0.40% hip/thigh   -1.19mm   R miss  0.84% hip/thigh   +2.93mm
+    thigh_r_pitch       +0.0  L miss  0.40% hip/thigh   -2.22mm   R miss  0.82% hip/thigh   +0.00mm
+    thigh_r_pitch       +5.0  L miss  0.40% hip/thigh   -2.75mm   R miss  0.87% hip/thigh   -8.40mm
+    thigh_r_pitch      +10.0  L miss  0.43% hip/thigh   -1.01mm   R miss  0.84% hip/thigh   -8.49mm
+    thigh_r_pitch      +15.0  L miss  0.40% hip/thigh   +0.00mm   R miss  0.87% hip/thigh   +0.00mm
+    thigh_r_pitch      +20.0  L miss  0.40% hip/thigh   +0.00mm   R miss  0.91% hip/thigh   -2.89mm
+    thigh_r_pitch      +25.0  L miss  0.40% hip/thigh   +0.00mm   R miss  0.82% hip/thigh   -1.73mm
+    thigh_r_pitch      +30.0  L miss  0.40% hip/thigh   +0.00mm   R miss  0.91% hip/thigh   -4.98mm
+    thigh_r_pitch      +35.0  L miss  0.43% hip/thigh   +0.00mm   R miss  0.91% hip/thigh   -4.96mm
+    thigh_r_pitch      +40.0  L miss  0.43% hip/thigh   +0.00mm   R miss  0.94% hip/thigh   -4.95mm
+    thigh_r_pitch      +45.0  L miss  0.45% hip/thigh   +0.00mm   R miss  0.84% hip/thigh   -4.95mm
+    calf_l_roll        -30.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_l_roll        -20.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_l_roll        -10.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_l_roll         +0.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_l_roll        +10.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_l_roll        +20.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_l_roll        +30.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_r_roll        -30.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_r_roll        -20.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_r_roll        -10.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_r_roll         +0.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_r_roll        +10.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_r_roll        +20.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    calf_r_roll        +30.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_l_yaw      +0.0  L miss  0.29% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_l_yaw     +10.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_l_yaw     +20.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_l_yaw     +30.0  L miss  0.21% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_l_yaw     +40.0  L miss  0.26% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_l_yaw     +50.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_l_yaw     +60.0  L miss  0.26% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_l_yaw     +70.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_l_yaw     +80.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_l_yaw     +90.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_l_yaw     +100.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_r_yaw      +0.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_r_yaw     +10.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_r_yaw     +20.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.30% hip/thigh   -7.61mm
+    upperarm_r_yaw     +30.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.35% hip/thigh   -7.61mm
+    upperarm_r_yaw     +40.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.35% hip/thigh   -7.61mm
+    upperarm_r_yaw     +50.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.35% hip/thigh   -7.61mm
+    upperarm_r_yaw     +60.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.35% hip/thigh   -7.61mm
+    upperarm_r_yaw     +70.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.37% hip/thigh   -7.61mm
+    upperarm_r_yaw     +80.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.35% hip/thigh   -7.61mm
+    upperarm_r_yaw     +90.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.32% hip/thigh   -7.61mm
+    upperarm_r_yaw     +100.0  L miss  0.24% hip/thigh   +0.00mm   R miss  1.32% hip/thigh   -7.61mm
+  worst L: miss 0.45% at thigh_r_pitch +45 deg | hip/thigh -2.75 mm at thigh_r_pitch +5 deg
+  worst R: miss 1.40% at thigh_l_pitch +5 deg | hip/thigh -10.84 mm at thigh_l_pitch +45 deg
+
+wrote C:\UnrealProjects\poly99\unreal\blender\armor\export\verify_report.json
+
+=== 3b. bare-skin acceptance (UE camera, 1280x960, arm 2.3-4.3 m) ===
+    rest          cam28  arm 2.3m  body= 295716  bare=    10   0.003%
+    rest          cam28  arm 3.3m  body= 149382  bare=     0   0.000%
+    rest          cam28  arm 4.3m  body=  87302  bare=     0   0.000%
+    rest          top    arm 2.3m  body= 256888  bare=     3   0.001%
+    rest          top    arm 3.3m  body= 120017  bare=     0   0.000%
+    rest          top    arm 4.3m  body=  69713  bare=     0   0.000%
+    rest          side   arm 2.3m  body= 236344  bare=     0   0.000%
+    rest          side   arm 3.3m  body= 124920  bare=     0   0.000%
+    rest          side   arm 4.3m  body=  74598  bare=     0   0.000%
+    walk_stride   cam28  arm 2.3m  body= 295899  bare=     1   0.000%
+    walk_stride   cam28  arm 3.3m  body= 145371  bare=     0   0.000%
+    walk_stride   cam28  arm 4.3m  body=  85136  bare=     0   0.000%
+    walk_stride   top    arm 2.3m  body= 250918  bare=     6   0.002%
+    walk_stride   top    arm 3.3m  body= 116588  bare=     1   0.001%
+    walk_stride   top    arm 4.3m  body=  67417  bare=     0   0.000%
+    walk_stride   side   arm 2.3m  body= 208170  bare=     0   0.000%
+    walk_stride   side   arm 3.3m  body= 109424  bare=     0   0.000%
+    walk_stride   side   arm 4.3m  body=  65981  bare=     0   0.000%
+    legs_apart    cam28  arm 2.3m  body= 295024  bare=    10   0.003%
+    legs_apart    cam28  arm 3.3m  body= 147558  bare=     0   0.000%01:07.203  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_cam28_43m_body.png'
+01:07.344  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_cam28_43m_armor.png'
+01:09.187  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_top_23m_body.png'
+01:09.359  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_top_23m_armor.png'
+01:11.203  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_top_33m_body.png'
+01:11.375  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_top_33m_armor.png'
+01:13.562  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_top_43m_body.png'
+01:13.781  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_top_43m_armor.png'
+01:15.781  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_side_23m_body.png'
+01:15.953  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_side_23m_armor.png'
+01:17.890  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_side_33m_body.png'
+01:18.031  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_side_33m_armor.png'
+01:19.844  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_side_43m_body.png'
+01:19.984  render           | Saved: 'C:\UnrealProjects\poly99\unreal\blender\armor\export\previews\uecam\legs_apart_side_43m_armor.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+    legs_apart    cam28  arm 4.3m  body=  86874  bare=     0   0.000%
+    legs_apart    top    arm 2.3m  body= 255520  bare=     3   0.001%
+    legs_apart    top    arm 3.3m  body= 120092  bare=     0   0.000%
+    legs_apart    top    arm 4.3m  body=  69674  bare=     0   0.000%
+    legs_apart    side   arm 2.3m  body= 233052  bare=     0   0.000%
+    legs_apart    side   arm 3.3m  body= 119713  bare=     0   0.000%
+    legs_apart    side   arm 4.3m  body=  72034  bare=     0   0.000%
+
+wrote C:\UnrealProjects\poly99\unreal\blender\armor\export\verify_report.json
+  worst 0.003% - no visible skin
+
+  !! SWEEP: hip/thigh clearance goes -2.75 mm inside the skin on the L side at thigh_r_pitch +5 deg.  That is the region the shipped defect lived in and it must be positive everywhere.
+hip/thigh sweep failed (L side thigh_r_pitch +5 deg: -2.75 mm)
+

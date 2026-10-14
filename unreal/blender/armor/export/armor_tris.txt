@@ -1,0 +1,8 @@
+SKM_Armor_Chest.fbx 15 8523 M_Undersuit,M_ArmorSecondary,M_ArmorEmissive,M_ArmorPrimary
+SKM_Armor_Shoulders.fbx 5 3614 M_Undersuit,M_ArmorPrimary,M_ArmorEmissive
+SKM_Armor_Arms.fbx 13 7620 M_Undersuit,M_ArmorPrimary,M_ArmorEmissive,M_ArmorSecondary
+SKM_Armor_Hands.fbx 4 5714 M_Undersuit,M_ArmorSecondary,M_ArmorPrimary,M_ArmorEmissive
+SKM_Armor_Legs.fbx 17 11303 M_Undersuit,M_ArmorPrimary,M_ArmorEmissive,M_ArmorSecondary
+SKM_Armor_Feet.fbx 11 3960 M_Undersuit,M_ArmorSecondary,M_ArmorEmissive,M_ArmorPrimary
+SKM_Armor_Back.fbx 3 896 M_ArmorPrimary,M_ArmorSecondary,M_ArmorEmissive
+TOTAL 41630

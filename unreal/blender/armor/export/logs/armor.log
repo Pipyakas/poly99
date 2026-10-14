@@ -1,0 +1,144 @@
+﻿FBX version: 7300
+body: 8568 verts 15196 faces
+slot face counts: {'chest': 1817, 'shoulders': 618, 'hands': 4726, 'arms': 2156, 'legs': 2915, 'feet': 2964}
+  [chest    ] Suit_Torso                 suit     1817 tris  x[ -19.3,  19.3] y[ -15.1,  12.9] z[  83.8, 149.2]
+  [chest    ] Plate_Collar_Trim          trim       82 tris  x[ -13.0,  13.0] y[ -13.5,  14.1] z[ 141.8, 146.7]
+  [chest    ] Plate_Collar               plate     376 tris  x[ -13.0,  12.9] y[ -13.4,  14.0] z[ 141.3, 146.4]
+  [chest    ] Plate_Cuirass_Trim         trim      180 tris  x[ -19.7,  19.8] y[ -16.6,  14.6] z[ 114.2, 137.3]
+  [chest    ] Plate_Cuirass              plate     946 tris  x[ -19.7,  19.7] y[ -16.5,  14.4] z[ 114.3, 137.3]
+  [chest    ] Plate_Sternum_Trim         trim       32 tris  x[  -7.9,   8.2] y[ -17.5, -15.5] z[ 117.5, 132.5]
+  [chest    ] Plate_Sternum              plate     152 tris  x[  -7.9,   8.2] y[ -17.4, -12.8] z[ 117.4, 132.5]
+  [chest    ] Plate_Back_Trim            trim       36 tris  x[ -11.4,  11.4] y[   9.3,  14.5] z[ 114.2, 132.1]
+  [chest    ] Plate_Back                 plate     160 tris  x[ -11.4,  11.4] y[   7.0,  14.3] z[ 114.3, 132.7]
+  [chest    ] Plate_Belt_Trim            trim      208 tris  x[ -18.1,  18.1] y[ -16.0,  10.8] z[ 101.6, 108.3]
+  [chest    ] Plate_Belt                 plate    1496 tris  x[ -18.0,  18.0] y[ -15.9,  10.6] z[ 101.1, 108.2]
+  [chest    ] Plate_Fauld_Upper_Trim     trim      222 tris  x[ -17.0,  17.0] y[ -16.6,   8.1] z[ 103.8, 110.7]
+  [chest    ] Plate_Fauld_Upper          plate    1374 tris  x[ -17.0,  17.1] y[ -16.5,   8.1] z[ 103.6, 110.7]
+  [chest    ] Plate_Fauld_Lower_Trim     trim      194 tris  x[ -17.9,  17.9] y[ -13.9,  11.8] z[  98.5, 104.0]
+  [chest    ] Plate_Fauld_Lower          plate    1248 tris  x[ -17.8,  17.8] y[ -13.9,  11.7] z[  98.5, 103.9]
+  [shoulders] Suit_Shoulders             suit      618 tris  x[ -29.4,  29.5] y[ -10.5,  12.6] z[ 131.8, 150.9]
+  [shoulders] Plate_Pauldron_l_Trim      trim      168 tris  x[  14.8,  31.1] y[ -11.2,  14.5] z[ 131.6, 152.6]
+  [shoulders] Plate_Pauldron_l           plate    1306 tris  x[  13.8,  31.0] y[ -11.5,  14.4] z[ 132.5, 152.4]
+  [shoulders] Plate_Pauldron_r_Trim      trim      172 tris  x[ -31.1, -14.8] y[ -11.2,  14.5] z[ 131.6, 152.5]
+  [shoulders] Plate_Pauldron_r           plate    1350 tris  x[ -31.1, -13.8] y[ -11.5,  14.4] z[ 132.5, 152.3]
+  [arms     ] Suit_Arms                  suit     2156 tris  x[ -53.3,  53.3] y[ -18.8,   9.6] z[ 102.3, 138.6]
+  [arms     ] Plate_UpperArm_l_Trim      trim      166 tris  x[  16.3,  37.3] y[  -7.1,  11.0] z[ 120.8, 141.2]
+  [arms     ] Plate_UpperArm_l           plate    1116 tris  x[  16.2,  37.2] y[  -7.0,  11.0] z[ 120.8, 141.1]
+  [arms     ] Plate_Elbow_l_Trim         trim      104 tris  x[  29.1,  43.8] y[  -6.1,   8.9] z[ 113.0, 129.0]
+  [arms     ] Plate_Elbow_l              plate     670 tris  x[  29.2,  43.6] y[  -6.3,   8.8] z[ 113.1, 128.9]
+  [arms     ] Plate_Vambrace_l_Trim      trim      104 tris  x[  34.6,  53.6] y[ -17.8,   1.6] z[ 101.2, 120.9]
+  [arms     ] Plate_Vambrace_l           plate     578 tris  x[  34.7,  53.5] y[ -17.7,   1.4] z[ 101.3, 120.8]
+  [arms     ] Plate_UpperArm_r_Trim      trim      162 tris  x[ -37.1, -16.1] y[  -8.0,  11.0] z[ 120.9, 140.9]
+  [arms     ] Plate_UpperArm_r           plate    1128 tris  x[ -37.1, -16.2] y[  -7.9,  11.0] z[ 120.9, 141.0]
+  [arms     ] Plate_Elbow_r_Trim         trim      100 tris  x[ -43.9, -28.9] y[  -6.1,   8.9] z[ 113.1, 129.0]
+  [arms     ] Plate_Elbow_r              plate     674 tris  x[ -43.6, -29.0] y[  -6.3,   8.8] z[ 113.2, 128.9]
+  [arms     ] Plate_Vambrace_r_Trim      trim      104 tris  x[ -53.6, -34.5] y[ -17.8,   1.6] z[ 101.2, 120.9]
+  [arms     ] Plate_Vambrace_r           plate     558 tris  x[ -53.4, -34.6] y[ -17.7,   1.4] z[ 101.3, 120.8]
+  [hands    ] Suit_Hands                 suit     1658 tris  x[ -57.8,  57.8] y[ -29.6, -12.4] z[  89.2, 107.3]
+  [hands    ] Plate_Fingers              plate    4266 tris  x[ -58.6,  58.5] y[ -30.6, -13.4] z[  88.2, 106.2]
+  [hands    ] Plate_Gauntlet_Trim        trim      266 tris  x[ -54.9,  55.0] y[ -20.7, -11.8] z[  98.3, 107.7]
+  [hands    ] Plate_Gauntlet             plate    1460 tris  x[ -54.9,  54.9] y[ -20.5, -11.9] z[  98.3, 107.6]
+  [legs     ] Suit_Legs                  suit     2915 tris  x[ -20.7,  20.7] y[ -15.6,  12.0] z[   6.2, 102.0]
+  [legs     ] Plate_Tasset_l_Trim        trim      180 tris  x[  -7.0,  20.2] y[ -16.4,  13.6] z[  90.5, 101.1]
+  [legs     ] Plate_Tasset_l             plate     864 tris  x[  -6.9,  20.1] y[ -16.3,  13.5] z[  90.6, 101.1]
+  [legs     ] Plate_Thigh_l_Trim         trim      204 tris  x[  -2.2,  21.5] y[ -16.4,   8.6] z[  58.0,  88.3]
+  [legs     ] Plate_Thigh_l              plate    1488 tris  x[  -2.1,  21.7] y[ -16.3,   9.3] z[  58.0,  87.9]
+  [legs     ] Plate_Knee_l_Trim          trim      112 tris  x[   2.8,  19.8] y[ -11.2,   7.2] z[  44.5,  54.9]
+  [legs     ] Plate_Knee_l               plate     592 tris  x[   2.9,  19.7] y[ -11.1,   7.5] z[  44.4,  54.9]
+  [legs     ] Plate_Greave_l_Trim        trim       94 tris  x[   5.0,  19.7] y[  -8.5,   8.3] z[  13.1,  47.3]
+  [legs     ] Plate_Greave_l             plate     636 tris  x[   4.7,  21.4] y[  -8.4,   9.6] z[  13.2,  47.3]
+  [legs     ] Plate_Tasset_r_Trim        trim      182 tris  x[ -20.2,   6.6] y[ -16.5,  13.5] z[  90.3, 101.1]
+  [legs     ] Plate_Tasset_r             plate     876 tris  x[ -20.1,   6.6] y[ -16.3,  13.4] z[  90.3, 101.1]
+  [legs     ] Plate_Thigh_r_Trim         trim      196 tris  x[ -21.4,   2.2] y[ -16.4,   8.3] z[  58.1,  88.3]
+  [legs     ] Plate_Thigh_r              plate    1542 tris  x[ -21.6,   2.1] y[ -16.3,   9.1] z[  58.2,  87.8]
+  [legs     ] Plate_Knee_r_Trim          trim      110 tris  x[ -19.8,  -2.8] y[ -11.2,   7.2] z[  44.5,  54.9]
+  [legs     ] Plate_Knee_r               plate     592 tris  x[ -19.7,  -2.9] y[ -11.1,   7.5] z[  44.4,  54.9]
+  [legs     ] Plate_Greave_r_Trim        trim       92 tris  x[ -19.7,  -5.0] y[  -8.5,   8.3] z[  13.1,  47.3]
+  [legs     ] Plate_Greave_r             plate     628 tris  x[ -21.4,  -4.6] y[  -8.4,   9.5] z[  13.2,  47.3]
+  [feet     ] Suit_Feet                  suit      741 tris  x[ -22.2,  22.3] y[ -22.8,   6.2] z[  -0.8,   9.9]
+  [feet     ] Plate_ToeCap_l_Trim        trim      188 tris  x[   8.4,  23.7] y[ -23.6,  -4.9] z[  -2.6,   8.8]
+  [feet     ] Plate_ToeCap_l             plate    1490 tris  x[   8.5,  23.6] y[ -23.2,  -4.9] z[  -2.5,   8.7]
+  [feet     ] Plate_AnkleCuff_l_Trim     trim      136 tris  x[   7.9,  18.9] y[  -9.1,   6.1] z[   3.9,  14.2]
+  [feet     ] Plate_AnkleCuff_l          plate     684 tris  x[   7.9,  18.8] y[  -8.6,   6.0] z[   3.9,  14.2]
+  [feet     ] Plate_ToeCap_r_Trim        trim      190 tris  x[ -23.7,  -8.4] y[ -23.6,  -4.9] z[  -2.6,   8.8]
+  [feet     ] Plate_ToeCap_r             plate    1554 tris  x[ -23.6,  -8.5] y[ -23.2,  -4.9] z[  -2.5,   8.7]
+  [feet     ] Plate_AnkleCuff_r_Trim     trim      132 tris  x[ -18.8,  -7.8] y[  -8.7,   6.1] z[   3.9,  13.9]
+  [feet     ] Plate_AnkleCuff_r          plate     672 tris  x[ -18.7,  -7.9] y[  -8.5,   6.0] z[   3.9,  13.8]
+  [feet     ] Plate_Boots_Trim           trim       28 tris  x[ -17.4,  17.5] y[  -2.4,   4.2] z[  -1.9,  -0.7]
+  [feet     ] Plate_Boots                plate     168 tris  x[ -19.4,  19.4] y[  -5.7,   6.5] z[  -1.8,   3.6]
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+  slot budget hands     5714 /   6000  OK
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+  slot budget feet      3960 /   4000  OK
+  [back     ] Plate_Pack                 plate     540 tris  x[ -11.6,  11.6] y[  13.4,  21.8] z[ 112.0, 150.5]
+  [back     ] Plate_Thrusters            plate     232 tris  x[  -7.7,   7.7] y[  14.1,  21.1] z[ 105.9, 114.1]
+  [back     ] Plate_PackTrim             plate     124 tris  x[  -9.3,   9.3] y[  16.2,  22.1] z[ 105.9, 142.0]
+
+--- per-slot ---
+
+FBX export starting... 'C:\\UnrealProjects\\poly99\\unreal\\blender\\armor\\export\\SKM_Armor_Chest.fbx'
+(bpy.data.armatures['root'], 'POSE')
+export finished in 0.1931 sec.
+  exported SKM_Armor_Chest.fbx            8523 tris  1 parts
+
+FBX export starting... 'C:\\UnrealProjects\\poly99\\unreal\\blender\\armor\\export\\SKM_Armor_Shoulders.fbx'
+(bpy.data.armatures['root'], 'POSE')
+export finished in 0.1585 sec.
+  exported SKM_Armor_Shoulders.fbx        3614 tris  1 parts
+
+FBX export starting... 'C:\\UnrealProjects\\poly99\\unreal\\blender\\armor\\export\\SKM_Armor_Arms.fbx'
+(bpy.data.armatures['root'], 'POSE')
+export finished in 0.1893 sec.
+  exported SKM_Armor_Arms.fbx             7620 tris  1 parts
+
+FBX export starting... 'C:\\UnrealProjects\\poly99\\unreal\\blender\\armor\\export\\SKM_Armor_Hands.fbx'
+(bpy.data.armatures['root'], 'POSE')
+export finished in 0.1784 sec.
+  exported SKM_Armor_Hands.fbx            5714 tris  1 parts
+
+FBX export starting... 'C:\\UnrealProjects\\poly99\\unreal\\blender\\armor\\export\\SKM_Armor_Legs.fbx'
+(bpy.data.armatures['root'], 'POSE')
+export finished in 0.2121 sec.
+  exported SKM_Armor_Legs.fbx            11303 tris  1 parts
+
+FBX export starting... 'C:\\UnrealProjects\\poly99\\unreal\\blender\\armor\\export\\SKM_Armor_Feet.fbx'
+(bpy.data.armatures['root'], 'POSE')
+export finished in 0.1996 sec.
+  exported SKM_Armor_Feet.fbx             3960 tris  1 parts
+
+FBX export starting... 'C:\\UnrealProjects\\poly99\\unreal\\blender\\armor\\export\\SKM_Armor_Back.fbx'
+(bpy.data.armatures['root'], 'POSE')
+export finished in 0.1442 sec.
+  exported SKM_Armor_Back.fbx              896 tris  1 parts
+
+file                         parts    tris  materials
+SKM_Armor_Chest.fbx             15    8523  M_Undersuit,M_ArmorSecondary,M_ArmorEmissive,M_ArmorPrimary
+SKM_Armor_Shoulders.fbx          5    3614  M_Undersuit,M_ArmorPrimary,M_ArmorEmissive
+SKM_Armor_Arms.fbx              13    7620  M_Undersuit,M_ArmorPrimary,M_ArmorEmissive,M_ArmorSecondary
+SKM_Armor_Hands.fbx              4    5714  M_Undersuit,M_ArmorSecondary,M_ArmorPrimary,M_ArmorEmissive
+SKM_Armor_Legs.fbx              17   11303  M_Undersuit,M_ArmorPrimary,M_ArmorEmissive,M_ArmorSecondary
+SKM_Armor_Feet.fbx              11    3960  M_Undersuit,M_ArmorSecondary,M_ArmorEmissive,M_ArmorPrimary
+SKM_Armor_Back.fbx               3     896  M_ArmorPrimary,M_ArmorSecondary,M_ArmorEmissive
+TOTAL armor triangles: 41630  (budget 70000) OK
+weights: 65 parts transferred (operator + explicit nearest-face map)
+DONE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
