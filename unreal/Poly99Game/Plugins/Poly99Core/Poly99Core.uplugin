@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "poly99 Core",
+	"Description": "Wraps the engine-agnostic poly99 gameplay core (<repo>/core) as a UE module.",
+	"Category": "Gameplay",
+	"CreatedBy": "Pipyakas",
+	"CanContainContent": false,
+	"Modules": [
+		{ "Name": "Poly99Core", "Type": "Runtime", "LoadingPhase": "Default" }
+	]
+}
