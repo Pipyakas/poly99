@@ -32,24 +32,36 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
+	/** Hands the view back from the attract screen to gameplay. Idempotent. */
+	void SkipAttract();
+
 	UInputAction* MakeAction(FName Name, int32 ValueType);
-	void OnMove(const FInputActionValue& Value);
-	void OnMoveStop(const FInputActionValue& Value);
-	void OnAim(const FInputActionValue& Value);
-	void OnAimStop(const FInputActionValue& Value);
+	void OnMoveX(const FInputActionValue& Value);
+	void OnMoveY(const FInputActionValue& Value);
+	void OnAimX(const FInputActionValue& Value);
+	void OnAimY(const FInputActionValue& Value);
 	void OnFire(const FInputActionValue& Value);
 	void OnFireStop(const FInputActionValue& Value);
 	void OnDash(const FInputActionValue& Value);
 	void OnToggleHelmet(const FInputActionValue& Value);
+	void OnStart(const FInputActionValue& Value);
 
 	UPROPERTY(Transient)
 	TObjectPtr<UInputMappingContext> Mapping;
 
+	// Sticks are four separate 1D actions, not two 2D ones: Pixel Streaming only
+	// injects the per-axis FKeys and nothing synthesises Gamepad_Left2D/Right2D.
 	UPROPERTY(Transient)
-	TObjectPtr<UInputAction> MoveAction;
+	TObjectPtr<UInputAction> MoveXAction;
 
 	UPROPERTY(Transient)
-	TObjectPtr<UInputAction> AimAction;
+	TObjectPtr<UInputAction> MoveYAction;
+
+	UPROPERTY(Transient)
+	TObjectPtr<UInputAction> AimXAction;
+
+	UPROPERTY(Transient)
+	TObjectPtr<UInputAction> AimYAction;
 
 	UPROPERTY(Transient)
 	TObjectPtr<UInputAction> FireAction;
@@ -60,8 +72,17 @@ private:
 	UPROPERTY(Transient)
 	TObjectPtr<UInputAction> HelmetAction;
 
+	/** A button on the pad - the "PRESS A" on the attract screen. */
+	UPROPERTY(Transient)
+	TObjectPtr<UInputAction> StartAction;
+
+	bool bHelmetPressed = false;
+
 	FVector2D Move = FVector2D::ZeroVector;
 	FVector2D StickAim = FVector2D::ZeroVector;
+
+	/** Throttle for the "Input live:" diagnostic in PlayerTick. */
+	double LastInputLogTime = -1000.0;
 	FVector2D LastAim = FVector2D(1.f, 0.f);
 	bool bFireHeld = false;
 	bool bDashQueued = false;

@@ -1,5 +1,6 @@
 #include "Poly99GameMode.h"
 
+#include "Poly99AttractMode.h"
 #include "Poly99EntityRenderer.h"
 #include "Poly99HeroPawn.h"
 #include "Poly99PlayerController.h"
@@ -21,5 +22,8 @@ void APoly99GameMode::StartPlay()
 	{
 		GetWorld()->SpawnActor<APoly99EntityRenderer>(RendererClass);
 	}
+	// The attract screen owns the view until the player gives input. Spawned here, after
+	// the pawn exists, so it has something to film on its first tick.
+	GetWorld()->SpawnActor<APoly99AttractMode>();
 	Super::StartPlay();
 }
